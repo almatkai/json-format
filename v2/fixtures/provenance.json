@@ -1,0 +1,215 @@
+{
+  "files": {
+    "fixtures/beautifier/js-beautify-1.15.1.tgz": {
+      "bytes": 195807,
+      "gitBlobSha1": "05d2ef549ffcb7b5cfe3820d99065dd2ca5554bb",
+      "sha256": "b840f39d9e8c41a54909f299e1850c254ed33cdefc2d983726ee1f607506a36b"
+    },
+    "fixtures/beautifier/provenance.json": {
+      "bytes": 221,
+      "gitBlobSha1": "32fcb368c070333de9398d7752b7f49c5d4b83c2",
+      "sha256": "9b62c31f3ed80d3e978a79714a76e4627f625364913b40f023ec9d650e0db973"
+    },
+    "fixtures/host/LICENSE": {
+      "bytes": 10750,
+      "gitBlobSha1": "c22db4c5658fa074557976ac119021cdaa567132",
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf"
+    },
+    "fixtures/host/pnpm-lock.yaml": {
+      "bytes": 169186,
+      "gitBlobSha1": "815ad5c98e74cdc770de9749cf1d38380e09405a",
+      "sha256": "f98edb2075fda3dd40b530bb41a7c007aa06e24748a5603fabe26b468d390d8e"
+    },
+    "fixtures/host/schemas/extension-v3.schema.json": {
+      "bytes": 13094,
+      "gitBlobSha1": "d22369213af9f6e7d8e2b40eae9ca5f2091dc742",
+      "sha256": "6f42f0316aa88097703496e828b11afcc7caecf8477fa7502df903c3ad2a8048"
+    },
+    "fixtures/host/src-tauri/src/native_core/extensions/launcher.rs": {
+      "bytes": 17923,
+      "gitBlobSha1": "e98d1eb35a689a381302752ccbebb3b896ae1815",
+      "sha256": "5f76c73ef2a945dfeb9967784aae1f13286ec178ad8c77a225ae7c150cdd6133"
+    },
+    "fixtures/host/src-tauri/src/native_core/extensions/process_host.rs": {
+      "bytes": 38535,
+      "gitBlobSha1": "707ee4c60ed2dc02ce016f19afa4f61d8ac0b011",
+      "sha256": "daf45815d76762323c6c1320c88ed24dfe28160a60bb4974b8073e3f17a3b982"
+    },
+    "fixtures/host/src-tauri/src/native_core/extensions/process_install.rs": {
+      "bytes": 53814,
+      "gitBlobSha1": "40790a4d63ba7c856c0b15d313536941a2b2bb5f",
+      "sha256": "1fc130d58703f80db0c5255d31a1e31b9f4e1a67876f98f86ceae7ede6363ee7"
+    },
+    "fixtures/host/src-tauri/src/native_core/extensions/registry.rs": {
+      "bytes": 67269,
+      "gitBlobSha1": "0ae0827f90fb337eb5fd00e1d596c1452915bc03",
+      "sha256": "05dd5d9c5fafbac3034e9ba5e101e345a5d3bb658a49d22696e59ea924530e66"
+    },
+    "fixtures/host/src-tauri/src/native_core/launcher/clipboard.rs": {
+      "bytes": 33863,
+      "gitBlobSha1": "b0a3044f5486531fa622c8a2b3380da950cf62a8",
+      "sha256": "8af5b882e06c9025d09a71b46b2f36c3e2a41513cd44fd2d0f945c58c9aa8d7d"
+    },
+    "fixtures/host/src-tauri/src/native_core/platform.rs": {
+      "bytes": 28872,
+      "gitBlobSha1": "18f1539aafc664b22dac374e39addfa29548213c",
+      "sha256": "33e6b7ec5b305ee3ffb857985d0483e54891998ff2a51c10f12695b80a1953e6"
+    },
+    "fixtures/host/src/renderer/ExtensionRuntimeView.tsx": {
+      "bytes": 24466,
+      "gitBlobSha1": "e43a39425078b1c14c25981a9bae02a43b5749ac",
+      "sha256": "c8378d1a1cc91cf622f81dc1bd88ed986ea2e9c396f7ff497e649171f573c5e8"
+    },
+    "fixtures/host/src/renderer/src/raycast-api/detail-runtime.test.ts": {
+      "bytes": 1028,
+      "gitBlobSha1": "ce4466bf367dc0783805f4c09d5d9ecb9887dbb7",
+      "sha256": "94acca3393a3636f7188a2ceac4a5e0429c2a0bc3433b02163602bdbe38beef4"
+    },
+    "fixtures/host/src/renderer/src/raycast-api/detail-runtime.tsx": {
+      "bytes": 23478,
+      "gitBlobSha1": "219517c635d708fef6e50b2a7be05146f75e5ea7",
+      "sha256": "32eecb50891e0f282bd3d78d8a38193ec24540bf70c3fdc8e43a1d368c97d54c"
+    },
+    "fixtures/host/src/renderer/src/raycast-api/form-runtime.test.ts": {
+      "bytes": 3876,
+      "gitBlobSha1": "cbb77a3a62e264e9e59e0d3eef8b071d14fe5117",
+      "sha256": "3c449509be65d1ffc8949a11835fadeb6300b7d647898309b5abc5b2e94af112"
+    },
+    "fixtures/host/src/renderer/src/raycast-api/form-runtime.tsx": {
+      "bytes": 21087,
+      "gitBlobSha1": "b6590ffb55a6c248a97b54db7f9bce0cbefa4590",
+      "sha256": "8568d0ac5be03eea97d0def38067dbbbdce5ae97c36a51024857ef20dce299a6"
+    },
+    "fixtures/host/src/renderer/src/raycast-api/index.tsx": {
+      "bytes": 7419,
+      "gitBlobSha1": "06172c12681568b3dbbf2bf4ac98f7135490df68",
+      "sha256": "7fc8413a72b92e8f88b0939cd93f91624018fe0765baa1e71b38b86f8cc77a64"
+    },
+    "fixtures/host/src/renderer/ui/Markdown.tsx": {
+      "bytes": 7492,
+      "gitBlobSha1": "8841268595775dcfe4b739a7d54de601f191f748",
+      "sha256": "d205312b35293a433d5398e4edf1dcc96662cacd34036e8ee3ec503f65eee2de"
+    },
+    "fixtures/own/LICENSE": {
+      "bytes": 1087,
+      "gitBlobSha1": "bc1853495c22bd1c2a3c7bb2724322dbd765aa69",
+      "sha256": "1d7dbdbcd4fe14dfa08334fab20bffad23c1290f195792a3a4420dadf9912f81"
+    },
+    "fixtures/own/package-lock.json": {
+      "bytes": 92269,
+      "gitBlobSha1": "fc5b8bab03d75b39a40c3cce493f7585bd0b3a7f",
+      "sha256": "7333049eee6ef25a7d25f908ada3c7c10abfc2c8fc3e29ea6b44d66687548742"
+    },
+    "fixtures/own/package.json": {
+      "bytes": 3815,
+      "gitBlobSha1": "1112aa1bb1083566a437dd4e8efef132716cfb8d",
+      "sha256": "59847dbb683e20296551e77dd0f3055ecbbfe0341ea160847b0b709dfc0b9cf7"
+    },
+    "fixtures/own/raycast-env.d.ts": {
+      "bytes": 2066,
+      "gitBlobSha1": "9ad1da20a32ae15210fa61ca94c00de678abc03e",
+      "sha256": "59086e6bc64b42a0b692b4fc02b8eed0e1304b308f602c698b8e5aa8de8c6a24"
+    },
+    "fixtures/own/src/formatClipboard.tsx": {
+      "bytes": 253,
+      "gitBlobSha1": "817cb39adfa538f41caa184f85ccf87b6b02caa3",
+      "sha256": "3e4126faf59afceaf52f17758764a41b4510a9f6a9ffea88ef738bf48bc5b542"
+    },
+    "fixtures/own/src/formatJsonLines.tsx": {
+      "bytes": 1483,
+      "gitBlobSha1": "b41256d035ed3d3f3f256de03cc4a1de9f3b3937",
+      "sha256": "fd85e25113ac3880c50234d033b9620626f7c4051951281965b3556eaee941b9"
+    },
+    "fixtures/own/src/formatSelection.tsx": {
+      "bytes": 248,
+      "gitBlobSha1": "618520a1475e15874e92321f13855fa39095b883",
+      "sha256": "cf62491a54345167e32a6c6943613d534fe52fe60a4b9d31947831601c188def"
+    },
+    "fixtures/own/src/formatSelectionAndShow.tsx": {
+      "bytes": 423,
+      "gitBlobSha1": "2c6a674020887f0574a575c367545070bbf4e98e",
+      "sha256": "f7c3953e75e3d57c597a10e23edf0a8682e5dc09fb2544451083c206366a4e05"
+    },
+    "fixtures/own/src/formatToJsonValue.tsx": {
+      "bytes": 920,
+      "gitBlobSha1": "b66daf7253d5ec33bccf7e92f36ba8fa9ac8943f",
+      "sha256": "2b89805ef9bbe957dd98341953f482eb1f5ed8171c56d3f1aaa5c3a054740119"
+    },
+    "fixtures/own/src/formattedJsonDetail.tsx": {
+      "bytes": 913,
+      "gitBlobSha1": "2f88fdd1da3962fb7a338de1190b6ad6f962f557",
+      "sha256": "93e00cbf65a2a1a47b0bb7465e9835ad3e9f2a6255db8e4be619e4da0242d8d0"
+    },
+    "fixtures/own/src/index.tsx": {
+      "bytes": 1408,
+      "gitBlobSha1": "61bff5a16e0877e880a1d773106ce2ad8ba5722b",
+      "sha256": "5de705d0217bd8639a78d6ee13bcea4b252280826fe45a35513cb2a9e859adfd"
+    },
+    "fixtures/own/src/jsonTreeView.tsx": {
+      "bytes": 2304,
+      "gitBlobSha1": "05708fec146f5e02c71016d158b1ff85818b3749",
+      "sha256": "b3535401ba8c541f357efe2515f01d687b8995523eed31420a829b553f7ce99c"
+    },
+    "fixtures/own/src/lib/json.ts": {
+      "bytes": 2641,
+      "gitBlobSha1": "8239e1e5766e80030b9de6af5a5b8295886d42d9",
+      "sha256": "e453b838232f7e01d0d7d0e361c6fb6fe1226d79f325e89a57b59a568e6882fa"
+    },
+    "fixtures/own/src/utils.ts": {
+      "bytes": 3782,
+      "gitBlobSha1": "cb60e3b82252a9a1c0eb76f8a071a95da864a013",
+      "sha256": "67c9817a970b788ec828398f9e870b48c6bd74efee08170d8649b7225f6c2d9e"
+    },
+    "fixtures/own/test/json-format.test.ts": {
+      "bytes": 5714,
+      "gitBlobSha1": "acfeda88d0fffb634da3ccb8bf85cd7fe5ea2ecf",
+      "sha256": "0b2436e11d8968186b66ce874fa7443351d3be05dd498f67d6d23915b9e1a3af"
+    },
+    "fixtures/own/tsconfig.json": {
+      "bytes": 343,
+      "gitBlobSha1": "a2cec5cabb128106909a5b12586fc4ac6fc57855",
+      "sha256": "b2a8b508c4c6341191f14aaa1adb56bd0b039697ade2f25cac3cfc3c0fcd9450"
+    },
+    "fixtures/sdk/HOST_INTEGRATION.md": {
+      "bytes": 11829,
+      "gitBlobSha1": "240b49d48f789c4f37abab9fdc653c03ccacd6ff",
+      "sha256": "88e6ca0c1090bcdf5d5501583e52e3eb7b0a369f4fea17ce4b01616c2f69d9a8"
+    },
+    "fixtures/sdk/LICENSE": {
+      "bytes": 10750,
+      "gitBlobSha1": "c22db4c5658fa074557976ac119021cdaa567132",
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf"
+    },
+    "fixtures/sdk/NOTICE": {
+      "bytes": 235,
+      "gitBlobSha1": "034e832da671561e68f76321b677c3a8cf443020",
+      "sha256": "aa04ab6115cfc2e2172b0613013611a59dc487c70f3e2dfbd2f135326d703c74"
+    },
+    "fixtures/sdk/PROTOCOL.md": {
+      "bytes": 11421,
+      "gitBlobSha1": "b833d6e72a1dd76ce2e46f26ec4cd40bd7ea3a18",
+      "sha256": "0bc474c2e79e6e3f46ad2d577f83144ad69bd87cb17b74600a17178bcc257371"
+    },
+    "fixtures/sdk/SDK_API.md": {
+      "bytes": 11574,
+      "gitBlobSha1": "679ea21194c9f9cc86e4f4bdc25af288212a04e4",
+      "sha256": "73945c65d763a82ee1bd64b2f30418f8aaec2e75966d71d7b774e7f7e40f098e"
+    },
+    "fixtures/upstream/LICENSE": {
+      "bytes": 1064,
+      "gitBlobSha1": "be595ac54db717d018cee4500381d46b0e0d085b",
+      "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755"
+    },
+    "fixtures/upstream/package.json": {
+      "bytes": 3441,
+      "gitBlobSha1": "cadf838088ac47e8564bcb40044f1102fca8ab97",
+      "sha256": "4a3b497b0a88dd8a8f6250fc94900524ccb02a66eb45893b887c100f18d7e698"
+    }
+  },
+  "refs": {
+    "host": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "own": "e40abbce5b84ca2c34b8f6f4becb70a60cd04656",
+    "sdk": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "upstream": "6734d85992290066fd31a7f5bee3cca3d3545a1a"
+  }
+}

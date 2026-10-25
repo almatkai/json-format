@@ -1,0 +1,23 @@
+[package]
+name = "tezbar-json-format"
+version = "0.2.0"
+edition = "2021"
+rust-version = "1.85"
+license = "MIT"
+publish = false
+
+[dependencies]
+tezbar-extension-sdk = { git = "https://github.com/almatkai/tezbar-extension-sdk-rust.git", rev = "e955911f0bf5b558f9d3eb5183df0adc95c22af2" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync", "io-util", "process", "time"] }
+ryu-js = "=1.0.2"
+
+[dev-dependencies]
+tempfile = "3"
+semver = "1"
+sha2 = "0.10"
+
+[profile.release]
+strip = true
+lto = "thin"
