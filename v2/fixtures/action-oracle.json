@@ -1,0 +1,716 @@
+{
+  "actions": [
+    {
+      "name": "formatClipboard",
+      "autopaste": false,
+      "result": {
+        "value": null,
+        "effects": [
+          [
+            "copy",
+            "{\n  \"a\": 1\n}"
+          ],
+          [
+            "close"
+          ],
+          [
+            "toast",
+            "success",
+            "Copied to clipboard"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "formatSelection",
+      "autopaste": false,
+      "result": {
+        "value": null,
+        "effects": [
+          [
+            "selection"
+          ],
+          [
+            "copy",
+            "{\n  \"a\": 1\n}"
+          ],
+          [
+            "close"
+          ],
+          [
+            "toast",
+            "success",
+            "Copied to clipboard"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "index",
+      "autopaste": false,
+      "actionIndex": 0,
+      "result": {
+        "value": null,
+        "effects": [
+          [
+            "copy",
+            "{\n  \"a\": 1\n}"
+          ],
+          [
+            "close"
+          ],
+          [
+            "toast",
+            "success",
+            "Copied to clipboard"
+          ]
+        ]
+      },
+      "pushed": []
+    },
+    {
+      "name": "index",
+      "autopaste": false,
+      "actionIndex": 1,
+      "result": {
+        "value": null,
+        "effects": []
+      },
+      "pushed": [
+        {
+          "type": "Detail",
+          "props": {
+            "markdown": "```json\n{\n  \"a\": 1\n}\n```",
+            "navigationTitle": "Formatted JSON",
+            "actions": {
+              "type": "Fragment",
+              "props": {
+                "children": [
+                  false,
+                  {
+                    "type": "Action.CopyToClipboard",
+                    "props": {
+                      "title": "Copy to Clipboard",
+                      "content": "{\n  \"a\": 1\n}"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "formatJsonLines",
+      "autopaste": false,
+      "actionIndex": 0,
+      "result": {
+        "value": null,
+        "effects": [
+          [
+            "copy",
+            "{\"a\":1}\n{\"b\":2}"
+          ],
+          [
+            "close"
+          ],
+          [
+            "toast",
+            "success",
+            "Copied to clipboard"
+          ]
+        ]
+      },
+      "pushed": []
+    },
+    {
+      "name": "formatJsonLines",
+      "autopaste": false,
+      "actionIndex": 1,
+      "result": {
+        "value": null,
+        "effects": []
+      },
+      "pushed": [
+        {
+          "type": "Detail",
+          "props": {
+            "markdown": "```json\n{\"a\":1}\n```\n\n```json\n{\"b\":2}\n```",
+            "navigationTitle": "Formatted JSON Lines",
+            "actions": {
+              "type": "Fragment",
+              "props": {
+                "children": [
+                  false,
+                  {
+                    "type": "Action.CopyToClipboard",
+                    "props": {
+                      "title": "Copy to Clipboard",
+                      "content": "{\"a\":1}\n{\"b\":2}"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "formatClipboard",
+      "autopaste": true,
+      "result": {
+        "value": null,
+        "effects": [
+          [
+            "paste",
+            "{\n  \"a\": 1\n}"
+          ],
+          [
+            "close"
+          ],
+          [
+            "toast",
+            "success",
+            "Pasted to foremost application"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "formatSelection",
+      "autopaste": true,
+      "result": {
+        "value": null,
+        "effects": [
+          [
+            "selection"
+          ],
+          [
+            "paste",
+            "{\n  \"a\": 1\n}"
+          ],
+          [
+            "close"
+          ],
+          [
+            "toast",
+            "success",
+            "Pasted to foremost application"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "index",
+      "autopaste": true,
+      "actionIndex": 0,
+      "result": {
+        "value": null,
+        "effects": [
+          [
+            "paste",
+            "{\n  \"a\": 1\n}"
+          ],
+          [
+            "close"
+          ],
+          [
+            "toast",
+            "success",
+            "Pasted to foremost application"
+          ]
+        ]
+      },
+      "pushed": []
+    },
+    {
+      "name": "index",
+      "autopaste": true,
+      "actionIndex": 1,
+      "result": {
+        "value": null,
+        "effects": []
+      },
+      "pushed": [
+        {
+          "type": "Detail",
+          "props": {
+            "markdown": "```json\n{\n  \"a\": 1\n}\n```",
+            "navigationTitle": "Formatted JSON",
+            "actions": {
+              "type": "Fragment",
+              "props": {
+                "children": [
+                  {
+                    "type": "Action.Paste",
+                    "props": {
+                      "title": "Paste",
+                      "content": "{\n  \"a\": 1\n}"
+                    }
+                  },
+                  false
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "formatJsonLines",
+      "autopaste": true,
+      "actionIndex": 0,
+      "result": {
+        "value": null,
+        "effects": [
+          [
+            "paste",
+            "{\"a\":1}\n{\"b\":2}"
+          ],
+          [
+            "close"
+          ],
+          [
+            "toast",
+            "success",
+            "Pasted to foremost application"
+          ]
+        ]
+      },
+      "pushed": []
+    },
+    {
+      "name": "formatJsonLines",
+      "autopaste": true,
+      "actionIndex": 1,
+      "result": {
+        "value": null,
+        "effects": [
+          [
+            "selection"
+          ]
+        ]
+      },
+      "pushed": [
+        {
+          "type": "Detail",
+          "props": {
+            "markdown": "```json\n{\"a\":1}\n```\n\n```json\n{\"b\":2}\n```",
+            "navigationTitle": "Formatted JSON Lines",
+            "actions": {
+              "type": "Fragment",
+              "props": {
+                "children": [
+                  {
+                    "type": "Action.Paste",
+                    "props": {
+                      "title": "Paste",
+                      "content": "{\"a\":1}\n{\"b\":2}"
+                    }
+                  },
+                  false
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "views": [
+    {
+      "maxInitialLines": "2",
+      "first": {
+        "type": "Detail",
+        "props": {
+          "markdown": "```json\n1\n2\n```\n\n---\n⚠️ **Showing 2 of 4 lines.** Press `⌘ + L` to load all.",
+          "navigationTitle": "Formatted JSON",
+          "actions": {
+            "type": "Fragment",
+            "props": {
+              "children": [
+                {
+                  "type": "Action.Paste",
+                  "props": {
+                    "title": "Paste Full JSON",
+                    "content": "1\n2\n3\n4"
+                  }
+                },
+                {
+                  "type": "Fragment",
+                  "props": {
+                    "title": "Load All Lines",
+                    "shortcut": {
+                      "modifiers": [
+                        "cmd"
+                      ],
+                      "key": "l"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "all": {
+        "type": "Detail",
+        "props": {
+          "markdown": "```json\n1\n2\n3\n4\n```",
+          "navigationTitle": "Formatted JSON",
+          "actions": {
+            "type": "Fragment",
+            "props": {
+              "children": [
+                {
+                  "type": "Action.Paste",
+                  "props": {
+                    "title": "Paste Full JSON",
+                    "content": "1\n2\n3\n4"
+                  }
+                },
+                false
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "maxInitialLines": "0",
+      "first": {
+        "type": "Detail",
+        "props": {
+          "markdown": "```json\n1\n2\n3\n4\n```",
+          "navigationTitle": "Formatted JSON",
+          "actions": {
+            "type": "Fragment",
+            "props": {
+              "children": [
+                {
+                  "type": "Action.Paste",
+                  "props": {
+                    "title": "Paste Full JSON",
+                    "content": "1\n2\n3\n4"
+                  }
+                },
+                false
+              ]
+            }
+          }
+        }
+      },
+      "all": {
+        "type": "Detail",
+        "props": {
+          "markdown": "```json\n1\n2\n3\n4\n```",
+          "navigationTitle": "Formatted JSON",
+          "actions": {
+            "type": "Fragment",
+            "props": {
+              "children": [
+                {
+                  "type": "Action.Paste",
+                  "props": {
+                    "title": "Paste Full JSON",
+                    "content": "1\n2\n3\n4"
+                  }
+                },
+                false
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "maxInitialLines": "bogus",
+      "first": {
+        "type": "Detail",
+        "props": {
+          "markdown": "```json\n1\n2\n3\n4\n```",
+          "navigationTitle": "Formatted JSON",
+          "actions": {
+            "type": "Fragment",
+            "props": {
+              "children": [
+                {
+                  "type": "Action.Paste",
+                  "props": {
+                    "title": "Paste Full JSON",
+                    "content": "1\n2\n3\n4"
+                  }
+                },
+                false
+              ]
+            }
+          }
+        }
+      },
+      "all": {
+        "type": "Detail",
+        "props": {
+          "markdown": "```json\n1\n2\n3\n4\n```",
+          "navigationTitle": "Formatted JSON",
+          "actions": {
+            "type": "Fragment",
+            "props": {
+              "children": [
+                {
+                  "type": "Action.Paste",
+                  "props": {
+                    "title": "Paste Full JSON",
+                    "content": "1\n2\n3\n4"
+                  }
+                },
+                false
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "maxInitialLines": "-1",
+      "first": {
+        "type": "Detail",
+        "props": {
+          "markdown": "```json\n1\n2\n3\n```\n\n---\n⚠️ **Showing -1 of 4 lines.** Press `⌘ + L` to load all.",
+          "navigationTitle": "Formatted JSON",
+          "actions": {
+            "type": "Fragment",
+            "props": {
+              "children": [
+                {
+                  "type": "Action.Paste",
+                  "props": {
+                    "title": "Paste Full JSON",
+                    "content": "1\n2\n3\n4"
+                  }
+                },
+                {
+                  "type": "Fragment",
+                  "props": {
+                    "title": "Load All Lines",
+                    "shortcut": {
+                      "modifiers": [
+                        "cmd"
+                      ],
+                      "key": "l"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "all": {
+        "type": "Detail",
+        "props": {
+          "markdown": "```json\n1\n2\n3\n4\n```",
+          "navigationTitle": "Formatted JSON",
+          "actions": {
+            "type": "Fragment",
+            "props": {
+              "children": [
+                {
+                  "type": "Action.Paste",
+                  "props": {
+                    "title": "Paste Full JSON",
+                    "content": "1\n2\n3\n4"
+                  }
+                },
+                false
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "maxInitialLines": "-100",
+      "first": {
+        "type": "Detail",
+        "props": {
+          "markdown": "```json\n\n```\n\n---\n⚠️ **Showing -100 of 4 lines.** Press `⌘ + L` to load all.",
+          "navigationTitle": "Formatted JSON",
+          "actions": {
+            "type": "Fragment",
+            "props": {
+              "children": [
+                {
+                  "type": "Action.Paste",
+                  "props": {
+                    "title": "Paste Full JSON",
+                    "content": "1\n2\n3\n4"
+                  }
+                },
+                {
+                  "type": "Fragment",
+                  "props": {
+                    "title": "Load All Lines",
+                    "shortcut": {
+                      "modifiers": [
+                        "cmd"
+                      ],
+                      "key": "l"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "all": {
+        "type": "Detail",
+        "props": {
+          "markdown": "```json\n1\n2\n3\n4\n```",
+          "navigationTitle": "Formatted JSON",
+          "actions": {
+            "type": "Fragment",
+            "props": {
+              "children": [
+                {
+                  "type": "Action.Paste",
+                  "props": {
+                    "title": "Paste Full JSON",
+                    "content": "1\n2\n3\n4"
+                  }
+                },
+                false
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "maxInitialLines": "  +2suffix",
+      "first": {
+        "type": "Detail",
+        "props": {
+          "markdown": "```json\n1\n2\n```\n\n---\n⚠️ **Showing 2 of 4 lines.** Press `⌘ + L` to load all.",
+          "navigationTitle": "Formatted JSON",
+          "actions": {
+            "type": "Fragment",
+            "props": {
+              "children": [
+                {
+                  "type": "Action.Paste",
+                  "props": {
+                    "title": "Paste Full JSON",
+                    "content": "1\n2\n3\n4"
+                  }
+                },
+                {
+                  "type": "Fragment",
+                  "props": {
+                    "title": "Load All Lines",
+                    "shortcut": {
+                      "modifiers": [
+                        "cmd"
+                      ],
+                      "key": "l"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "all": {
+        "type": "Detail",
+        "props": {
+          "markdown": "```json\n1\n2\n3\n4\n```",
+          "navigationTitle": "Formatted JSON",
+          "actions": {
+            "type": "Fragment",
+            "props": {
+              "children": [
+                {
+                  "type": "Action.Paste",
+                  "props": {
+                    "title": "Paste Full JSON",
+                    "content": "1\n2\n3\n4"
+                  }
+                },
+                false
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "maxInitialLines": "1e2",
+      "first": {
+        "type": "Detail",
+        "props": {
+          "markdown": "```json\n1\n```\n\n---\n⚠️ **Showing 1 of 4 lines.** Press `⌘ + L` to load all.",
+          "navigationTitle": "Formatted JSON",
+          "actions": {
+            "type": "Fragment",
+            "props": {
+              "children": [
+                {
+                  "type": "Action.Paste",
+                  "props": {
+                    "title": "Paste Full JSON",
+                    "content": "1\n2\n3\n4"
+                  }
+                },
+                {
+                  "type": "Fragment",
+                  "props": {
+                    "title": "Load All Lines",
+                    "shortcut": {
+                      "modifiers": [
+                        "cmd"
+                      ],
+                      "key": "l"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "all": {
+        "type": "Detail",
+        "props": {
+          "markdown": "```json\n1\n2\n3\n4\n```",
+          "navigationTitle": "Formatted JSON",
+          "actions": {
+            "type": "Fragment",
+            "props": {
+              "children": [
+                {
+                  "type": "Action.Paste",
+                  "props": {
+                    "title": "Paste Full JSON",
+                    "content": "1\n2\n3\n4"
+                  }
+                },
+                false
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "storedText": "next",
+  "stubs": [
+    "Raycast host services",
+    "React hooks",
+    "useForm",
+    "useLocalStorage",
+    "usePromise"
+  ]
+}

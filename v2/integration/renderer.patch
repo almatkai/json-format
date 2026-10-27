@@ -1,0 +1,48 @@
+--- a/src/renderer/src/raycast-api/index.tsx
++++ b/src/renderer/src/raycast-api/index.tsx
+@@ -64,6 +64,7 @@
+   const [showActions, setShowActions] = useState(false)
+   const [actionFilterIds, setActionFilterIds] = useState<string[] | null>(null)
+   const formRuntimeRef = useRef<FormRuntimeHandle>(null)
++  const draftRevision = useRef(0)
+ 
+   useEffect(() => {
+     setRuntimeContext(extensionId, commandName)
+@@ -142,7 +143,7 @@
+   const onSubmitForm = useCallback(
+     (values: Record<string, unknown>): void => {
+       if (!submitAction) return
+-      void onInvokeAction(submitAction.id, values)
++      void onInvokeAction(submitAction.id, { ...values, __tezbarDraftRevision: draftRevision.current })
+     },
+     [onInvokeAction, submitAction]
+   )
+@@ -158,7 +159,7 @@
+               title={title}
+               onBack={onSurfaceBack}
+               onSubmitForm={onSubmitForm}
+-              onChangeField={(actionId, value) => onInvokeAction(actionId, { value })}
++              onChangeField={(actionId, value) => onInvokeAction(actionId, { value, __tezbarDraftRevision: ++draftRevision.current })}
+               onInvokeAction={onInvokeAction}
+               onOpenActions={openActions}
+               actionNotice={actionNotice}
+@@ -179,7 +180,7 @@
+               root={root}
+               title={title}
+               onBack={onSurfaceBack}
+-              onRunPrimaryAction={onRunPrimaryAction}
++              onRunPrimaryAction={() => onRunPrimaryAction()}
+               onOpenActions={openActions}
+             />
+           ) : (
+@@ -206,8 +207,8 @@
+               onExecute={(action) => {
+                 setShowActions(false)
+                 setActionFilterIds(null)
+-                if (kind === 'form' && action.id === submitAction?.id) {
+-                  onSubmitForm(formRuntimeRef.current?.getValues() ?? {})
++                if (kind === 'form' && action.kind === 'submit-form') {
++                  void onInvokeAction(action.id, { ...formRuntimeRef.current?.getValues(), __tezbarDraftRevision: draftRevision.current })
+                   return
+                 }
+                 void onInvokeAction(action.id)

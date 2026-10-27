@@ -1,0 +1,835 @@
+{
+  "scope": "README.md plus v2 source/review deliverables; excludes INDEX itself and disposable build outputs",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1602,
+      "sha256": "d5243ccfa9e10cf220f6de43be74687b9e7a51fe7bf081d3c77d8ce4a76d467f"
+    },
+    {
+      "path": "v2/.gitignore",
+      "bytes": 43,
+      "sha256": "83226fdfdaeda373c0beabeba2afbeb88172a741a599b7e1389b2a0ae9815095"
+    },
+    {
+      "path": "v2/COMPATIBILITY.md",
+      "bytes": 6659,
+      "sha256": "e51bfd2a3e20bb13f7963dd13c5121b54a2014a50393537c75949ba497fab3ab"
+    },
+    {
+      "path": "v2/Cargo.lock",
+      "bytes": 12575,
+      "sha256": "99233c4edc4f68b46426640ec46708d9b6a1af72b48892e9c465dec26279869b"
+    },
+    {
+      "path": "v2/Cargo.toml",
+      "bytes": 583,
+      "sha256": "0f41674ca65f7ef44a2d0394a9fd1986ba0ce310258a449805b9f2ac6f8779fb"
+    },
+    {
+      "path": "v2/LICENSE",
+      "bytes": 1066,
+      "sha256": "6ea3de86bb1967e3773d9e370bac3e29428d53211cc506fee4d429ba624d43d5"
+    },
+    {
+      "path": "v2/LIFECYCLE.md",
+      "bytes": 6514,
+      "sha256": "395be05db693c6d112919e48215a264420eb9c6dab951ede21d0364d6e0ff522"
+    },
+    {
+      "path": "v2/NOTICE",
+      "bytes": 1272,
+      "sha256": "228ee5d292851bd49ce3a3f80c6d9460da5a387b601c3c24dd84ddca5bd585a2"
+    },
+    {
+      "path": "v2/PROVENANCE.md",
+      "bytes": 4820,
+      "sha256": "e19a3a3f287b19a819954c8f07d7e9b3cc232b0757f052bd5baccb53c04cf7de"
+    },
+    {
+      "path": "v2/README.md",
+      "bytes": 4279,
+      "sha256": "f0f3924b8d8e63ebd24387e1648dbbb0527b3befe535969a625a57b845bd426b"
+    },
+    {
+      "path": "v2/VALIDATION.md",
+      "bytes": 6909,
+      "sha256": "4dd27e24ff58718df2ca319cb3d41838e40f5bfe611063d1bf0da834318b3339"
+    },
+    {
+      "path": "v2/ci/native.yml",
+      "bytes": 2936,
+      "sha256": "f6ae801d85d5b3d8e175e0cb0ff8ab8f472db0757275a62b8c03b8f9c32c12be"
+    },
+    {
+      "path": "v2/extension.json",
+      "bytes": 4529,
+      "sha256": "76c1d9da9a381550ebdd44d6b467f438bfd914442f481906b76f725b22de2477"
+    },
+    {
+      "path": "v2/fixtures/action-oracle.json",
+      "bytes": 17037,
+      "sha256": "cd9df4f7739780f507dbe4a205ff5f8d99ae4b7cb0c8e25d77e4efbe50efab73"
+    },
+    {
+      "path": "v2/fixtures/beautifier/js-beautify-1.15.1.tgz",
+      "bytes": 195807,
+      "sha256": "b840f39d9e8c41a54909f299e1850c254ed33cdefc2d983726ee1f607506a36b"
+    },
+    {
+      "path": "v2/fixtures/beautifier/provenance.json",
+      "bytes": 221,
+      "sha256": "9b62c31f3ed80d3e978a79714a76e4627f625364913b40f023ec9d650e0db973"
+    },
+    {
+      "path": "v2/fixtures/host-contract.rs",
+      "bytes": 15734,
+      "sha256": "c380cc8f570945d9030db688407f5cfab6d9401de8c978c96c48479cf0e78f67"
+    },
+    {
+      "path": "v2/fixtures/host/LICENSE",
+      "bytes": 10750,
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf"
+    },
+    {
+      "path": "v2/fixtures/host/pnpm-lock.yaml",
+      "bytes": 169186,
+      "sha256": "f98edb2075fda3dd40b530bb41a7c007aa06e24748a5603fabe26b468d390d8e"
+    },
+    {
+      "path": "v2/fixtures/host/schemas/extension-v3.schema.json",
+      "bytes": 13094,
+      "sha256": "6f42f0316aa88097703496e828b11afcc7caecf8477fa7502df903c3ad2a8048"
+    },
+    {
+      "path": "v2/fixtures/host/src-tauri/src/native_core/extensions/launcher.rs",
+      "bytes": 17923,
+      "sha256": "5f76c73ef2a945dfeb9967784aae1f13286ec178ad8c77a225ae7c150cdd6133"
+    },
+    {
+      "path": "v2/fixtures/host/src-tauri/src/native_core/extensions/process_host.rs",
+      "bytes": 38535,
+      "sha256": "daf45815d76762323c6c1320c88ed24dfe28160a60bb4974b8073e3f17a3b982"
+    },
+    {
+      "path": "v2/fixtures/host/src-tauri/src/native_core/extensions/process_install.rs",
+      "bytes": 53814,
+      "sha256": "1fc130d58703f80db0c5255d31a1e31b9f4e1a67876f98f86ceae7ede6363ee7"
+    },
+    {
+      "path": "v2/fixtures/host/src-tauri/src/native_core/extensions/registry.rs",
+      "bytes": 67269,
+      "sha256": "05dd5d9c5fafbac3034e9ba5e101e345a5d3bb658a49d22696e59ea924530e66"
+    },
+    {
+      "path": "v2/fixtures/host/src-tauri/src/native_core/launcher/clipboard.rs",
+      "bytes": 33863,
+      "sha256": "8af5b882e06c9025d09a71b46b2f36c3e2a41513cd44fd2d0f945c58c9aa8d7d"
+    },
+    {
+      "path": "v2/fixtures/host/src-tauri/src/native_core/platform.rs",
+      "bytes": 28872,
+      "sha256": "33e6b7ec5b305ee3ffb857985d0483e54891998ff2a51c10f12695b80a1953e6"
+    },
+    {
+      "path": "v2/fixtures/host/src/renderer/ExtensionRuntimeView.tsx",
+      "bytes": 24466,
+      "sha256": "c8378d1a1cc91cf622f81dc1bd88ed986ea2e9c396f7ff497e649171f573c5e8"
+    },
+    {
+      "path": "v2/fixtures/host/src/renderer/src/raycast-api/detail-runtime.test.ts",
+      "bytes": 1028,
+      "sha256": "94acca3393a3636f7188a2ceac4a5e0429c2a0bc3433b02163602bdbe38beef4"
+    },
+    {
+      "path": "v2/fixtures/host/src/renderer/src/raycast-api/detail-runtime.tsx",
+      "bytes": 23478,
+      "sha256": "32eecb50891e0f282bd3d78d8a38193ec24540bf70c3fdc8e43a1d368c97d54c"
+    },
+    {
+      "path": "v2/fixtures/host/src/renderer/src/raycast-api/form-runtime.test.ts",
+      "bytes": 3876,
+      "sha256": "3c449509be65d1ffc8949a11835fadeb6300b7d647898309b5abc5b2e94af112"
+    },
+    {
+      "path": "v2/fixtures/host/src/renderer/src/raycast-api/form-runtime.tsx",
+      "bytes": 21087,
+      "sha256": "8568d0ac5be03eea97d0def38067dbbbdce5ae97c36a51024857ef20dce299a6"
+    },
+    {
+      "path": "v2/fixtures/host/src/renderer/src/raycast-api/index.tsx",
+      "bytes": 7419,
+      "sha256": "7fc8413a72b92e8f88b0939cd93f91624018fe0765baa1e71b38b86f8cc77a64"
+    },
+    {
+      "path": "v2/fixtures/host/src/renderer/ui/Markdown.tsx",
+      "bytes": 7492,
+      "sha256": "d205312b35293a433d5398e4edf1dcc96662cacd34036e8ee3ec503f65eee2de"
+    },
+    {
+      "path": "v2/fixtures/icon-contract.rs",
+      "bytes": 6905,
+      "sha256": "0a67018ccec49fc8d15a3163f55ca3ab763fb37253e2af1d5eae353d2bc3ddfe"
+    },
+    {
+      "path": "v2/fixtures/oracle.json",
+      "bytes": 187947,
+      "sha256": "aa06c106a788d45ba79ee65243ddbc1df2f37cd699c7cad988c4bd9dffb09d7d"
+    },
+    {
+      "path": "v2/fixtures/own/LICENSE",
+      "bytes": 1087,
+      "sha256": "1d7dbdbcd4fe14dfa08334fab20bffad23c1290f195792a3a4420dadf9912f81"
+    },
+    {
+      "path": "v2/fixtures/own/package-lock.json",
+      "bytes": 92269,
+      "sha256": "7333049eee6ef25a7d25f908ada3c7c10abfc2c8fc3e29ea6b44d66687548742"
+    },
+    {
+      "path": "v2/fixtures/own/package.json",
+      "bytes": 3815,
+      "sha256": "59847dbb683e20296551e77dd0f3055ecbbfe0341ea160847b0b709dfc0b9cf7"
+    },
+    {
+      "path": "v2/fixtures/own/raycast-env.d.ts",
+      "bytes": 2066,
+      "sha256": "59086e6bc64b42a0b692b4fc02b8eed0e1304b308f602c698b8e5aa8de8c6a24"
+    },
+    {
+      "path": "v2/fixtures/own/src/formatClipboard.tsx",
+      "bytes": 253,
+      "sha256": "3e4126faf59afceaf52f17758764a41b4510a9f6a9ffea88ef738bf48bc5b542"
+    },
+    {
+      "path": "v2/fixtures/own/src/formatJsonLines.tsx",
+      "bytes": 1483,
+      "sha256": "fd85e25113ac3880c50234d033b9620626f7c4051951281965b3556eaee941b9"
+    },
+    {
+      "path": "v2/fixtures/own/src/formatSelection.tsx",
+      "bytes": 248,
+      "sha256": "cf62491a54345167e32a6c6943613d534fe52fe60a4b9d31947831601c188def"
+    },
+    {
+      "path": "v2/fixtures/own/src/formatSelectionAndShow.tsx",
+      "bytes": 423,
+      "sha256": "f7c3953e75e3d57c597a10e23edf0a8682e5dc09fb2544451083c206366a4e05"
+    },
+    {
+      "path": "v2/fixtures/own/src/formatToJsonValue.tsx",
+      "bytes": 920,
+      "sha256": "2b89805ef9bbe957dd98341953f482eb1f5ed8171c56d3f1aaa5c3a054740119"
+    },
+    {
+      "path": "v2/fixtures/own/src/formattedJsonDetail.tsx",
+      "bytes": 913,
+      "sha256": "93e00cbf65a2a1a47b0bb7465e9835ad3e9f2a6255db8e4be619e4da0242d8d0"
+    },
+    {
+      "path": "v2/fixtures/own/src/index.tsx",
+      "bytes": 1408,
+      "sha256": "5de705d0217bd8639a78d6ee13bcea4b252280826fe45a35513cb2a9e859adfd"
+    },
+    {
+      "path": "v2/fixtures/own/src/jsonTreeView.tsx",
+      "bytes": 2304,
+      "sha256": "b3535401ba8c541f357efe2515f01d687b8995523eed31420a829b553f7ce99c"
+    },
+    {
+      "path": "v2/fixtures/own/src/lib/json.ts",
+      "bytes": 2641,
+      "sha256": "e453b838232f7e01d0d7d0e361c6fb6fe1226d79f325e89a57b59a568e6882fa"
+    },
+    {
+      "path": "v2/fixtures/own/src/utils.ts",
+      "bytes": 3782,
+      "sha256": "67c9817a970b788ec828398f9e870b48c6bd74efee08170d8649b7225f6c2d9e"
+    },
+    {
+      "path": "v2/fixtures/own/test/json-format.test.ts",
+      "bytes": 5714,
+      "sha256": "0b2436e11d8968186b66ce874fa7443351d3be05dd498f67d6d23915b9e1a3af"
+    },
+    {
+      "path": "v2/fixtures/own/tsconfig.json",
+      "bytes": 343,
+      "sha256": "b2a8b508c4c6341191f14aaa1adb56bd0b039697ade2f25cac3cfc3c0fcd9450"
+    },
+    {
+      "path": "v2/fixtures/provenance.json",
+      "bytes": 9517,
+      "sha256": "736a74acc836e65e0955b1a2332e16c4f95f3660c39339344cba89ba5d92269c"
+    },
+    {
+      "path": "v2/fixtures/refs.json",
+      "bytes": 221,
+      "sha256": "678d384425675775d0e1dcfcd36831b2e58c4ba1f78d4c6857029e64cb0935e4"
+    },
+    {
+      "path": "v2/fixtures/sdk/HOST_INTEGRATION.md",
+      "bytes": 11829,
+      "sha256": "88e6ca0c1090bcdf5d5501583e52e3eb7b0a369f4fea17ce4b01616c2f69d9a8"
+    },
+    {
+      "path": "v2/fixtures/sdk/LICENSE",
+      "bytes": 10750,
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf"
+    },
+    {
+      "path": "v2/fixtures/sdk/NOTICE",
+      "bytes": 235,
+      "sha256": "aa04ab6115cfc2e2172b0613013611a59dc487c70f3e2dfbd2f135326d703c74"
+    },
+    {
+      "path": "v2/fixtures/sdk/PROTOCOL.md",
+      "bytes": 11421,
+      "sha256": "0bc474c2e79e6e3f46ad2d577f83144ad69bd87cb17b74600a17178bcc257371"
+    },
+    {
+      "path": "v2/fixtures/sdk/SDK_API.md",
+      "bytes": 11574,
+      "sha256": "73945c65d763a82ee1bd64b2f30418f8aaec2e75966d71d7b774e7f7e40f098e"
+    },
+    {
+      "path": "v2/fixtures/upstream/LICENSE",
+      "bytes": 1064,
+      "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755"
+    },
+    {
+      "path": "v2/fixtures/upstream/package.json",
+      "bytes": 3441,
+      "sha256": "4a3b497b0a88dd8a8f6250fc94900524ccb02a66eb45893b887c100f18d7e698"
+    },
+    {
+      "path": "v2/integration/README.md",
+      "bytes": 3386,
+      "sha256": "3fc3c0b7a6f5f77c9bca00e6e2ea6e13c87d27954b222a2e416116bbfc0c34b9"
+    },
+    {
+      "path": "v2/integration/icon_contract.py",
+      "bytes": 4408,
+      "sha256": "83c1f4052a42509450741d031ad1883a746d3e8ecbd573f8aed2d3799e924710"
+    },
+    {
+      "path": "v2/integration/package-lock.json",
+      "bytes": 38715,
+      "sha256": "bbf720114c7cfcabdae8e8580fc1439c9866fb2f450c1fcedffb97dbc78b4997"
+    },
+    {
+      "path": "v2/integration/package.json",
+      "bytes": 355,
+      "sha256": "da968b4cc664467120da7f672d27db8229cb74a33815c7bf1b6864fa9a778a67"
+    },
+    {
+      "path": "v2/integration/registry-icon.patch",
+      "bytes": 3534,
+      "sha256": "612c4c3c4765a4616c54ab94500033bbbde48cfedf200cfdea8b8e7678df7388"
+    },
+    {
+      "path": "v2/integration/renderer.patch",
+      "bytes": 2148,
+      "sha256": "93bce7dcb6194a1d1b29624ca3a02cfe954637594117cfb00fa7e6a0b43241c4"
+    },
+    {
+      "path": "v2/integration/renderer.test.cjs",
+      "bytes": 8021,
+      "sha256": "ebe43c9d7d508123254573ae52141464cb425dbad9d2534c72d40714e5fda60b"
+    },
+    {
+      "path": "v2/resources/command-icon.png",
+      "bytes": 237176,
+      "sha256": "cfee8098d945a0541c391777deeae1fc6e3ddee07a8516f1f730b2103e4e8f13"
+    },
+    {
+      "path": "v2/resources/licenses/cargo-index.json",
+      "bytes": 13597,
+      "sha256": "4649ed29fcf00695d791ad14ffa40e35b2d08eb70fe64034b30ae84f9e4060c1"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/bitflags-2.13.2/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/bitflags-2.13.2/LICENSE-MIT",
+      "bytes": 1071,
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/bumpalo-3.20.3/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/bumpalo-3.20.3/LICENSE-MIT",
+      "bytes": 1059,
+      "sha256": "65f94e99ddaf4f5d1782a6dae23f35d4293a9a01444a13135a6887017d353cee"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/bytes-1.12.1/LICENSE",
+      "bytes": 1055,
+      "sha256": "45f522cacecb1023856e46df79ca625dfc550c94910078bd8aec6e02880b3d42"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/cfg-if-1.0.5/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/cfg-if-1.0.5/LICENSE-MIT",
+      "bytes": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/errno-0.3.14/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/errno-0.3.14/LICENSE-MIT",
+      "bytes": 1054,
+      "sha256": "8764a597675778ddfd4e25f81b08a05dbcf089ac05662df7613fe67f150e3aa2"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/fastrand-2.5.0/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/fastrand-2.5.0/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/futures-core-0.3.34/LICENSE-APACHE",
+      "bytes": 10874,
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/futures-core-0.3.34/LICENSE-MIT",
+      "bytes": 1094,
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/futures-task-0.3.34/LICENSE-APACHE",
+      "bytes": 10874,
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/futures-task-0.3.34/LICENSE-MIT",
+      "bytes": 1094,
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/futures-util-0.3.34/LICENSE-APACHE",
+      "bytes": 10874,
+      "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/futures-util-0.3.34/LICENSE-MIT",
+      "bytes": 1094,
+      "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/getrandom-0.4.3/LICENSE-APACHE",
+      "bytes": 10849,
+      "sha256": "aaff376532ea30a0cd5330b9502ad4a4c8bf769c539c87ffe78819d188a18ebf"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/getrandom-0.4.3/LICENSE-MIT",
+      "bytes": 1130,
+      "sha256": "523a42c25d245dde9c015f882cec7f4555aad883382a6cf19b4b7d9b2cd5419b"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/itoa-1.0.18/LICENSE-APACHE",
+      "bytes": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/itoa-1.0.18/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/js-sys-0.3.106/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/js-sys-0.3.106/LICENSE-MIT",
+      "bytes": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/libc-0.2.191/LICENSE-APACHE",
+      "bytes": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/libc-0.2.191/LICENSE-MIT",
+      "bytes": 1066,
+      "sha256": "123a331b5dbf04c30097fa43b8f858bc85df671fe776de498d01f3d6b7c1f69e"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/linux-raw-sys-0.12.1/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/linux-raw-sys-0.12.1/LICENSE-Apache-2.0_WITH_LLVM-exception",
+      "bytes": 12243,
+      "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/linux-raw-sys-0.12.1/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/memchr-2.8.3/COPYING",
+      "bytes": 126,
+      "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/memchr-2.8.3/LICENSE-MIT",
+      "bytes": 1081,
+      "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/mio-1.2.4/LICENSE",
+      "bytes": 1082,
+      "sha256": "07919255c7e04793d8ea760d6c2ce32d19f9ff02bdbdde3ce90b1e1880929a9b"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/once_cell-1.21.4/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/once_cell-1.21.4/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/pin-project-lite-0.2.17/LICENSE-APACHE",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/pin-project-lite-0.2.17/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/proc-macro2-1.0.107/LICENSE-APACHE",
+      "bytes": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/proc-macro2-1.0.107/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/quote-1.0.47/LICENSE-APACHE",
+      "bytes": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/quote-1.0.47/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/rustix-1.1.5/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/rustix-1.1.5/LICENSE-Apache-2.0_WITH_LLVM-exception",
+      "bytes": 12243,
+      "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/rustix-1.1.5/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/ryu-js-1.0.2/LICENSE-APACHE",
+      "bytes": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/ryu-js-1.0.2/LICENSE-BOOST",
+      "bytes": 1338,
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/serde-1.0.229/LICENSE-APACHE",
+      "bytes": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/serde-1.0.229/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/serde_core-1.0.229/LICENSE-APACHE",
+      "bytes": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/serde_core-1.0.229/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/serde_derive-1.0.229/LICENSE-APACHE",
+      "bytes": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/serde_derive-1.0.229/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/serde_json-1.0.154/LICENSE-APACHE",
+      "bytes": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/serde_json-1.0.154/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/signal-hook-registry-1.4.8/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/signal-hook-registry-1.4.8/LICENSE-MIT",
+      "bytes": 1068,
+      "sha256": "503558bfefe66ca15e4e3f7955b3cb0ec87fd52f29bf24b336af7bd00e946d5c"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/syn-3.0.9/LICENSE-APACHE",
+      "bytes": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/syn-3.0.9/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/tempfile-3.27.0/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/tempfile-3.27.0/LICENSE-MIT",
+      "bytes": 1056,
+      "sha256": "8b427f5bc501764575e52ba4f9d95673cf8f6d80a86d0d06599852e1a9a20a36"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/tezbar-extension-sdk-0.1.1/LICENSE",
+      "bytes": 10750,
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/tezbar-extension-sdk-0.1.1/NOTICE",
+      "bytes": 235,
+      "sha256": "aa04ab6115cfc2e2172b0613013611a59dc487c70f3e2dfbd2f135326d703c74"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/tokio-1.54.1/LICENSE",
+      "bytes": 1070,
+      "sha256": "253cd04c6714889df2d32f3f64d669179a1c95c76ac43c40882c52eb06bc3552"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/tokio-macros-2.7.2/LICENSE",
+      "bytes": 1102,
+      "sha256": "0b83dc40cba89b9922bb84b0a9c7d2768ce37c1d7e138b7424fd4549915778c9"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/unicode-ident-1.0.27/LICENSE-APACHE",
+      "bytes": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/unicode-ident-1.0.27/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/unicode-ident-1.0.27/LICENSE-UNICODE",
+      "bytes": 1995,
+      "sha256": "f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/uuid-1.23.3/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/uuid-1.23.3/LICENSE-MIT",
+      "bytes": 1157,
+      "sha256": "436bc5a105d8e57dcd8778730f3754f7bf39c14d2f530e4cde4bd2d17a83ec3d"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/windows-link-0.2.1/license-apache-2.0",
+      "bytes": 11351,
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/windows-link-0.2.1/license-mit",
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/windows-sys-0.61.2/license-apache-2.0",
+      "bytes": 11351,
+      "sha256": "c16f8dcf1a368b83be78d826ea23de4079fe1b4469a0ab9ee20563f37ff3d44b"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/windows-sys-0.61.2/license-mit",
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "v2/resources/licenses/cargo/zmij-1.0.23/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "v2/resources/licenses/js-beautify-MIT.txt",
+      "bytes": 1119,
+      "sha256": "2829716775dfdac45467d7384d8eb1bcaa1ae186994eedca0f513fb09038c134"
+    },
+    {
+      "path": "v2/resources/licenses/raycast-MIT.txt",
+      "bytes": 1064,
+      "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755"
+    },
+    {
+      "path": "v2/resources/licenses/tezbar-extension-sdk-Apache-2.0.txt",
+      "bytes": 10750,
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf"
+    },
+    {
+      "path": "v2/resources/licenses/tezbar-host-Apache-2.0.txt",
+      "bytes": 10750,
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf"
+    },
+    {
+      "path": "v2/scripts/host_contract.py",
+      "bytes": 2198,
+      "sha256": "aa566a96d923911b9c39cd8abffba676913a061a1171ba509aa3549a4f3f35a1"
+    },
+    {
+      "path": "v2/scripts/index.py",
+      "bytes": 1670,
+      "sha256": "76e8e929d93e692d99e1b4ddbdecc2193fcf595fcd57b2b7bd5fec4493b4fc9d"
+    },
+    {
+      "path": "v2/scripts/licenses.py",
+      "bytes": 1634,
+      "sha256": "f35b3e218c2b2e5461b38dcda7eba589d10892614f9ce01e30314eca4cc31d7f"
+    },
+    {
+      "path": "v2/scripts/oracle.cjs",
+      "bytes": 8338,
+      "sha256": "54e7c22c97bce74cf033afe36939f1c8c78a9bf8d4264820bacc7adad6059d3b"
+    },
+    {
+      "path": "v2/scripts/package.py",
+      "bytes": 2708,
+      "sha256": "62d811f1011550ff8eaf0fd15af8b59aec9b961bcf2b3346b4266bc87b82ea81"
+    },
+    {
+      "path": "v2/scripts/package_test.py",
+      "bytes": 2180,
+      "sha256": "9ae28eabc057974bc062489940481c2e8d30c8b311165b91caf62ab2f5dfc6ad"
+    },
+    {
+      "path": "v2/scripts/provenance.py",
+      "bytes": 1633,
+      "sha256": "fae79fbfe7f48051d64eccded1737a4c80bdf1852078b76961ce38e9fe099f85"
+    },
+    {
+      "path": "v2/scripts/reproduce_oracle.py",
+      "bytes": 1081,
+      "sha256": "55d34d80335a5d55bc10481638f374bedabfe4d13fe3aaf4d3d2253012e81e23"
+    },
+    {
+      "path": "v2/scripts/requirements-lock.txt",
+      "bytes": 131,
+      "sha256": "e5abace4c1e22c3b80d7c4e5492f0d6ecc4636b76625f63a5d6e18922a2184fb"
+    },
+    {
+      "path": "v2/scripts/smoke.py",
+      "bytes": 3347,
+      "sha256": "4b7e8851f25ee1cddeb1b6892f562633c49f62779708ba93cadda5bdd29becda"
+    },
+    {
+      "path": "v2/scripts/source_archive.py",
+      "bytes": 755,
+      "sha256": "18ca95fb766717dc8c844d2a9ca23b6ba6a7ff6350dd0f42ba01243a4361d78a"
+    },
+    {
+      "path": "v2/scripts/validate_schema.py",
+      "bytes": 975,
+      "sha256": "2e0536d760f5469479fb4120db9c2d773ad4c5b6f8ef6baf6728f0df19557324"
+    },
+    {
+      "path": "v2/src/convert.rs",
+      "bytes": 29189,
+      "sha256": "5380c0d2731237cb776d379c17fa25f6dee40a5e0149b71693b768e8ec18b925"
+    },
+    {
+      "path": "v2/src/lib.rs",
+      "bytes": 21191,
+      "sha256": "d5e3eee93d629f24f970736975deee50e73c6d81e0a0b2ace830ea666537b09f"
+    },
+    {
+      "path": "v2/src/main.rs",
+      "bytes": 235,
+      "sha256": "2819b8268982da898b6a1904c64ca4a79c3ec177b7b5aac0f4adc95a013a5a39"
+    },
+    {
+      "path": "v2/src/ui.rs",
+      "bytes": 6552,
+      "sha256": "d543dce7747c7806dbe6e3acbd59f1eec26220f8bd136b12d997dca7fb398382"
+    },
+    {
+      "path": "v2/tests/adapter.rs",
+      "bytes": 3654,
+      "sha256": "d75ea76dfc12c6fec794c16de710e677755a4a5ceccaa6b2092773edc4c2efd0"
+    },
+    {
+      "path": "v2/tests/icons.rs",
+      "bytes": 1255,
+      "sha256": "f2ae8ef6550dda1f022d389a825ada0668ca7befed87df7b82fe0e418aedd057"
+    },
+    {
+      "path": "v2/tests/manifest.rs",
+      "bytes": 3483,
+      "sha256": "1d50173f3c6abd8765b2bdafa437ae0481fbd61e84e82411f750eb200b15554a"
+    },
+    {
+      "path": "v2/tests/oracle.rs",
+      "bytes": 3460,
+      "sha256": "564fd75bba41a35e6122f33cdc556148c39b912df48ae340bace202971fb2eb3"
+    },
+    {
+      "path": "v2/tests/process.rs",
+      "bytes": 24224,
+      "sha256": "4a8e1902074cb7316d863e021fba7a84645d87f1aa1cc31f8abab1bc8d1e9080"
+    }
+  ]
+}

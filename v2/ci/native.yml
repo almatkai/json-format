@@ -1,0 +1,80 @@
+# Reviewable isolated CI definition. Parent may activate at .github/workflows/;
+# intentionally kept under v2/ to honor this task's file-scope authorization.
+name: Standalone Format JSON native gates
+on:
+  workflow_dispatch:
+jobs:
+  native:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - runner: [self-hosted, macOS, ARM64]
+            target: aarch64-apple-darwin
+            suffix: ''
+          - runner: windows-2022
+            target: x86_64-pc-windows-msvc
+            suffix: .exe
+    runs-on: ${{ matrix.runner }}
+    defaults:
+      run:
+        shell: bash
+        working-directory: v2
+    env:
+      PYTHON: python
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.target }}
+          components: rustfmt, clippy
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Require actual native execution target
+        run: python -c "import subprocess; assert 'host: ${{ matrix.target }}' in subprocess.check_output(['rustc','-vV'], text=True)"
+      - run: cargo fmt --check
+      - run: cargo test --locked --all-targets
+      - run: cargo clippy --locked --all-targets -- -D warnings
+      - run: cargo build --release --locked --target ${{ matrix.target }}
+      - run: python scripts/provenance.py --check
+      - run: python scripts/host_contract.py --check
+      - run: python integration/icon_contract.py --check
+      - run: python -m pip install -r scripts/requirements-lock.txt
+      - run: python scripts/validate_schema.py
+      - run: cargo fetch --locked
+      - run: python scripts/licenses.py
+      - run: python scripts/package.py --binary target/${{ matrix.target }}/release/tezbar-json-format${{ matrix.suffix }} --target ${{ matrix.target }}
+      - run: python scripts/package_test.py artifacts/json-format-0.2.0-${{ matrix.target }}.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: json-format-${{ matrix.target }}
+          path: v2/artifacts/
+  msrv:
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: v2
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@1.85.0
+      - run: cargo test --locked --all-targets
+  oracle-renderer:
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: v2
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '26.7.0'
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: cargo build --locked
+      - run: python scripts/reproduce_oracle.py
+      - run: git diff --exit-code -- fixtures/oracle.json fixtures/action-oracle.json
+      - run: npm ci --ignore-scripts --no-audit --no-fund --prefix integration
+      - run: npm test --prefix integration

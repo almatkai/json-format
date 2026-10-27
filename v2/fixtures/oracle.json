@@ -1,0 +1,9118 @@
+{
+  "version": "1.15.1",
+  "vectors": [
+    {
+      "kind": "format",
+      "input": "",
+      "indent": "tab",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": " ",
+      "indent": "tab",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{}",
+      "indent": "tab",
+      "actual": {
+        "value": "{}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[]",
+      "indent": "tab",
+      "actual": {
+        "value": "[]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "null",
+      "indent": "tab",
+      "actual": {
+        "value": "null",
+        "effects": []
+      },
+      "helper": {
+        "value": "null",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "true",
+      "indent": "tab",
+      "actual": {
+        "value": "true",
+        "effects": []
+      },
+      "helper": {
+        "value": "true",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "false",
+      "indent": "tab",
+      "actual": {
+        "value": "false",
+        "effects": []
+      },
+      "helper": {
+        "value": "false",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "0",
+      "indent": "tab",
+      "actual": {
+        "value": "0",
+        "effects": []
+      },
+      "helper": {
+        "value": "0",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "-0",
+      "indent": "tab",
+      "actual": {
+        "value": "-0",
+        "effects": []
+      },
+      "helper": {
+        "value": "-0",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1e+02",
+      "indent": "tab",
+      "actual": {
+        "value": "1e+02",
+        "effects": []
+      },
+      "helper": {
+        "value": "1e+02",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1E-7",
+      "indent": "tab",
+      "actual": {
+        "value": "1E-7",
+        "effects": []
+      },
+      "helper": {
+        "value": "1E-7",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1e400",
+      "indent": "tab",
+      "actual": {
+        "value": "1e400",
+        "effects": []
+      },
+      "helper": {
+        "value": "1e400",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "9007199254740993",
+      "indent": "tab",
+      "actual": {
+        "value": "9007199254740993",
+        "effects": []
+      },
+      "helper": {
+        "value": "9007199254740993",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":1,\"b\":[2,3]}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"a\": 1,\n\t\"b\": [2, 3]\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"a\": 1,\n\t\"b\": [2, 3]\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"b\":1,\"a\":2,\"b\":3,\"10\":1,\"2\":2,\"01\":3}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"b\": 1,\n\t\"a\": 2,\n\t\"b\": 3,\n\t\"10\": 1,\n\t\"2\": 2,\n\t\"01\": 3\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"b\": 1,\n\t\"a\": 2,\n\t\"b\": 3,\n\t\"10\": 1,\n\t\"2\": 2,\n\t\"01\": 3\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"__proto__\":{\"a\":1},\"x\":2}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"__proto__\": {\n\t\t\"a\": 1\n\t},\n\t\"x\": 2\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"__proto__\": {\n\t\t\"a\": 1\n\t},\n\t\"x\": 2\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"x\":-0,\"n\":1.00,\"e\":1E+3,\"v\":9007199254740993}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"x\": -0,\n\t\"n\": 1.00,\n\t\"e\": 1E+3,\n\t\"v\": 9007199254740993\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"x\": -0,\n\t\"n\": 1.00,\n\t\"e\": 1E+3,\n\t\"v\": 9007199254740993\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,2,3]",
+      "indent": "tab",
+      "actual": {
+        "value": "[1, 2, 3]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2, 3]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,\n2,\n3]",
+      "indent": "tab",
+      "actual": {
+        "value": "[1,\n\t2,\n\t3\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1,\n\t2,\n\t3\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1,\n2\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t1,\n\t2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t1,\n\t2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[1,2],[3,4]]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t[1, 2],\n\t[3, 4]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t[1, 2],\n\t[3, 4]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{\"a\":1},{\"b\":2}]",
+      "indent": "tab",
+      "actual": {
+        "value": "[{\n\t\"a\": 1\n}, {\n\t\"b\": 2\n}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n\t\"a\": 1\n}, {\n\t\"b\": 2\n}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\n\n\"a\":1,\n\n\"b\":2\n}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\n\t\"a\": 1,\n\n\t\"b\": 2\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\n\t\"a\": 1,\n\n\t\"b\": 2\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":[],\"b\":{},\"c\":[true,null,\"x\"]}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"a\": [],\n\t\"b\": {},\n\t\"c\": [true, null, \"x\"]\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"a\": [],\n\t\"b\": {},\n\t\"c\": [true, null, \"x\"]\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"{\\\"a\\\":1}\"",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"[1,2]\"",
+      "indent": "tab",
+      "actual": {
+        "value": "[1, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"hello\"",
+      "indent": "tab",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"\"",
+      "indent": "tab",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\" \\n \"",
+      "indent": "tab",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"\\ud800\"",
+      "indent": "tab",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"str\":\"a \\u0041 \\/ \\b \\n \\t \\uD83D\\uDE00 \\ud800 \\udc00\"}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"str\": \"a \\u0041 \\/ \\b \\n \\t \\uD83D\\uDE00 \\ud800 \\udc00\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"str\": \"a \\u0041 \\/ \\b \\n \\t \\uD83D\\uDE00 \\ud800 \\udc00\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\\\"a\\\":1}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\\\"a\\\":\\\"hi\\\"}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"a\": \"hi\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"a\": \"hi\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:1,b:'hi',}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"a\": 1,\n\t\"b\": \"hi\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"a\": 1,\n\t\"b\": \"hi\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:[1,2,],b:{z:true,},}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"a\": [1, 2],\n\t\"b\": {\n\t\t\"z\": true\n\t}\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"a\": [1, 2],\n\t\"b\": {\n\t\t\"z\": true\n\t}\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{'2':'two','1':'one',z:-0,a:1e2}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"1\": \"one\",\n\t\"2\": \"two\",\n\t\"z\": 0,\n\t\"a\": 100\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"1\": \"one\",\n\t\"2\": \"two\",\n\t\"z\": 0,\n\t\"a\": 100\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:1,a:2,__proto__:{ignored:true},z:undefined,b:NaN,c:Infinity}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"a\": 2,\n\t\"b\": null,\n\t\"c\": null\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"a\": 2,\n\t\"b\": null,\n\t\"c\": null\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,,3,undefined,NaN,Infinity,-Infinity]",
+      "indent": "tab",
+      "actual": {
+        "value": "[1, null, 3, null, null, null, null]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, null, 3, null, null, null, null]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "+2",
+      "indent": "tab",
+      "actual": {
+        "value": "2",
+        "effects": []
+      },
+      "helper": {
+        "value": "2",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "0x10",
+      "indent": "tab",
+      "actual": {
+        "value": "16",
+        "effects": []
+      },
+      "helper": {
+        "value": "16",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "-0x10",
+      "indent": "tab",
+      "actual": {
+        "value": "-16",
+        "effects": []
+      },
+      "helper": {
+        "value": "-16",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "0b11",
+      "indent": "tab",
+      "actual": {
+        "value": "3",
+        "effects": []
+      },
+      "helper": {
+        "value": "3",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "0o17",
+      "indent": "tab",
+      "actual": {
+        "value": "15",
+        "effects": []
+      },
+      "helper": {
+        "value": "15",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": ".5",
+      "indent": "tab",
+      "actual": {
+        "value": "0.5",
+        "effects": []
+      },
+      "helper": {
+        "value": "0.5",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1.",
+      "indent": "tab",
+      "actual": {
+        "value": "1",
+        "effects": []
+      },
+      "helper": {
+        "value": "1",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:\"paren()\"}",
+      "indent": "tab",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:`hello`}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"a\": \"hello\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"a\": \"hello\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":1};",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": " [1,2] ",
+      "indent": "tab",
+      "actual": {
+        "value": "[1, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,2];",
+      "indent": "tab",
+      "actual": {
+        "value": "[1, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "null;",
+      "indent": "tab",
+      "actual": {
+        "value": "null",
+        "effects": []
+      },
+      "helper": {
+        "value": "null",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "no json {{{",
+      "indent": "tab",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":}",
+      "indent": "tab",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"bad",
+      "indent": "tab",
+      "actual": {
+        "value": null,
+        "error": "TypeError: Cannot read properties of undefined (reading 'endsWith')",
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please enter a valid JSON string"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:unknownVariable}",
+      "indent": "tab",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "(function(){})()",
+      "indent": "tab",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "tag`x`",
+      "indent": "tab",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1+2",
+      "indent": "tab",
+      "actual": {
+        "value": "3",
+        "effects": []
+      },
+      "helper": {
+        "value": "3",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[...[]]",
+      "indent": "tab",
+      "actual": {
+        "value": "[]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[0,2]",
+      "indent": "tab",
+      "actual": {
+        "value": "[0, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[0, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n0,\n2\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t0,\n\t2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t0,\n\t2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[0,{}]",
+      "indent": "tab",
+      "actual": {
+        "value": "[0, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[0, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n0,\n{}\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t0,\n\t{}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t0,\n\t{}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[0,[3]]",
+      "indent": "tab",
+      "actual": {
+        "value": "[0, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[0, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n0,\n[3]\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t0,\n\t[3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t0,\n\t[3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[-0,2]",
+      "indent": "tab",
+      "actual": {
+        "value": "[-0, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[-0, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n-0,\n2\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t-0,\n\t2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t-0,\n\t2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[-0,{}]",
+      "indent": "tab",
+      "actual": {
+        "value": "[-0, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[-0, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n-0,\n{}\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t-0,\n\t{}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t-0,\n\t{}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[-0,[3]]",
+      "indent": "tab",
+      "actual": {
+        "value": "[-0, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[-0, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n-0,\n[3]\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t-0,\n\t[3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t-0,\n\t[3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1.2300,2]",
+      "indent": "tab",
+      "actual": {
+        "value": "[1.2300, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1.2300, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1.2300,\n2\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t1.2300,\n\t2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t1.2300,\n\t2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1.2300,{}]",
+      "indent": "tab",
+      "actual": {
+        "value": "[1.2300, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1.2300, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1.2300,\n{}\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t1.2300,\n\t{}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t1.2300,\n\t{}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1.2300,[3]]",
+      "indent": "tab",
+      "actual": {
+        "value": "[1.2300, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1.2300, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1.2300,\n[3]\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t1.2300,\n\t[3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t1.2300,\n\t[3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e-7,2]",
+      "indent": "tab",
+      "actual": {
+        "value": "[1e-7, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e-7, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e-7,\n2\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t1e-7,\n\t2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t1e-7,\n\t2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e-7,{}]",
+      "indent": "tab",
+      "actual": {
+        "value": "[1e-7, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e-7, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e-7,\n{}\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t1e-7,\n\t{}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t1e-7,\n\t{}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e-7,[3]]",
+      "indent": "tab",
+      "actual": {
+        "value": "[1e-7, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e-7, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e-7,\n[3]\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t1e-7,\n\t[3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t1e-7,\n\t[3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e21,2]",
+      "indent": "tab",
+      "actual": {
+        "value": "[1e21, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e21, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e21,\n2\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t1e21,\n\t2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t1e21,\n\t2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e21,{}]",
+      "indent": "tab",
+      "actual": {
+        "value": "[1e21, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e21, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e21,\n{}\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t1e21,\n\t{}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t1e21,\n\t{}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e21,[3]]",
+      "indent": "tab",
+      "actual": {
+        "value": "[1e21, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e21, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e21,\n[3]\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t1e21,\n\t[3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t1e21,\n\t[3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[9007199254740993,2]",
+      "indent": "tab",
+      "actual": {
+        "value": "[9007199254740993, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[9007199254740993, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n9007199254740993,\n2\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t9007199254740993,\n\t2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t9007199254740993,\n\t2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[9007199254740993,{}]",
+      "indent": "tab",
+      "actual": {
+        "value": "[9007199254740993, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[9007199254740993, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n9007199254740993,\n{}\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t9007199254740993,\n\t{}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t9007199254740993,\n\t{}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[9007199254740993,[3]]",
+      "indent": "tab",
+      "actual": {
+        "value": "[9007199254740993, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[9007199254740993, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n9007199254740993,\n[3]\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t9007199254740993,\n\t[3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t9007199254740993,\n\t[3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[true,2]",
+      "indent": "tab",
+      "actual": {
+        "value": "[true, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[true, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\ntrue,\n2\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\ttrue,\n\t2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\ttrue,\n\t2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[true,{}]",
+      "indent": "tab",
+      "actual": {
+        "value": "[true, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[true, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\ntrue,\n{}\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\ttrue,\n\t{}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\ttrue,\n\t{}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[true,[3]]",
+      "indent": "tab",
+      "actual": {
+        "value": "[true, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[true, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\ntrue,\n[3]\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\ttrue,\n\t[3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\ttrue,\n\t[3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[null,2]",
+      "indent": "tab",
+      "actual": {
+        "value": "[null, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\nnull,\n2\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\tnull,\n\t2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\tnull,\n\t2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[null,{}]",
+      "indent": "tab",
+      "actual": {
+        "value": "[null, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\nnull,\n{}\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\tnull,\n\t{}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\tnull,\n\t{}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[null,[3]]",
+      "indent": "tab",
+      "actual": {
+        "value": "[null, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\nnull,\n[3]\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\tnull,\n\t[3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\tnull,\n\t[3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\"x\",2]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\"x\", 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\"x\", 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n\"x\",\n2\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t\"x\",\n\t2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t\"x\",\n\t2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\"x\",{}]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\"x\", {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\"x\", {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n\"x\",\n{}\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t\"x\",\n\t{}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t\"x\",\n\t{}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\"x\",[3]]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\"x\", [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\"x\", [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n\"x\",\n[3]\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t\"x\",\n\t[3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t\"x\",\n\t[3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},2]",
+      "indent": "tab",
+      "actual": {
+        "value": "[{}, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{}, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{},\n2\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[{},\n\t2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{},\n\t2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},{}]",
+      "indent": "tab",
+      "actual": {
+        "value": "[{}, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{}, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{},\n{}\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[{},\n\t{}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{},\n\t{}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},[3]]",
+      "indent": "tab",
+      "actual": {
+        "value": "[{},\n\t[3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{},\n\t[3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{},\n[3]\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[{},\n\t[3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{},\n\t[3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[],2]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t[], 2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t[], 2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[],\n2\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t[],\n\t2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t[],\n\t2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[],{}]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t[], {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t[], {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[],\n{}\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t[],\n\t{}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t[],\n\t{}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[],[3]]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t[],\n\t[3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t[],\n\t[3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[],\n[3]\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t[],\n\t[3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t[],\n\t[3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{\"a\":1},2]",
+      "indent": "tab",
+      "actual": {
+        "value": "[{\n\t\"a\": 1\n}, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n\t\"a\": 1\n}, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{\"a\":1},\n2\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[{\n\t\t\"a\": 1\n\t},\n\t2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n\t\t\"a\": 1\n\t},\n\t2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{\"a\":1},{}]",
+      "indent": "tab",
+      "actual": {
+        "value": "[{\n\t\"a\": 1\n}, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n\t\"a\": 1\n}, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{\"a\":1},\n{}\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[{\n\t\t\"a\": 1\n\t},\n\t{}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n\t\t\"a\": 1\n\t},\n\t{}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{\"a\":1},[3]]",
+      "indent": "tab",
+      "actual": {
+        "value": "[{\n\t\t\"a\": 1\n\t},\n\t[3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n\t\t\"a\": 1\n\t},\n\t[3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{\"a\":1},\n[3]\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[{\n\t\t\"a\": 1\n\t},\n\t[3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n\t\t\"a\": 1\n\t},\n\t[3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[1,2],2]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t[1, 2], 2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t[1, 2], 2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[1,2],\n2\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t[1, 2],\n\t2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t[1, 2],\n\t2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[1,2],{}]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t[1, 2], {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t[1, 2], {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[1,2],\n{}\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t[1, 2],\n\t{}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t[1, 2],\n\t{}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[1,2],[3]]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t[1, 2],\n\t[3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t[1, 2],\n\t[3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[1,2],\n[3]\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[\n\t[1, 2],\n\t[3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n\t[1, 2],\n\t[3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,2\n]",
+      "indent": "tab",
+      "actual": {
+        "value": "[1, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},{}]",
+      "indent": "tab",
+      "actual": {
+        "value": "[{}, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{}, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},{\"a\":1}]",
+      "indent": "tab",
+      "actual": {
+        "value": "[{}, {\n\t\"a\": 1\n}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{}, {\n\t\"a\": 1\n}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,{\"a\":2},3]",
+      "indent": "tab",
+      "actual": {
+        "value": "[1, {\n\t\"a\": 2\n}, 3]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, {\n\t\"a\": 2\n}, 3]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":\n1}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":\n{\"b\":2}}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"a\": {\n\t\t\"b\": 2\n\t}\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"a\": {\n\t\t\"b\": 2\n\t}\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":[[1],[2]]}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"a\": [\n\t\t[1],\n\t\t[2]\n\t]\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"a\": [\n\t\t[1],\n\t\t[2]\n\t]\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":[{\"b\":2},{\"c\":3}]}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"a\": [{\n\t\t\"b\": 2\n\t}, {\n\t\t\"c\": 3\n\t}]\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"a\": [{\n\t\t\"b\": 2\n\t}, {\n\t\t\"c\": 3\n\t}]\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,\n\n2]",
+      "indent": "tab",
+      "actual": {
+        "value": "[1,\n\n\t2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1,\n\n\t2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[,]",
+      "indent": "tab",
+      "actual": {
+        "value": "[null]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[,,]",
+      "indent": "tab",
+      "actual": {
+        "value": "[null, null]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null, null]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,,]",
+      "indent": "tab",
+      "actual": {
+        "value": "[1, null]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, null]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":1,}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{__proto__:null,x:1}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"x\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"x\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{__proto__:1,x:2}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"x\": 2\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"x\": 2\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{['a']:1}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:1,__proto__:{},__proto__:null}",
+      "indent": "tab",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1_000",
+      "indent": "tab",
+      "actual": {
+        "value": "1000",
+        "effects": []
+      },
+      "helper": {
+        "value": "1000",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1e-324",
+      "indent": "tab",
+      "actual": {
+        "value": "1e-324",
+        "effects": []
+      },
+      "helper": {
+        "value": "1e-324",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "5e-324",
+      "indent": "tab",
+      "actual": {
+        "value": "5e-324",
+        "effects": []
+      },
+      "helper": {
+        "value": "5e-324",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "-1e400",
+      "indent": "tab",
+      "actual": {
+        "value": "-1e400",
+        "effects": []
+      },
+      "helper": {
+        "value": "-1e400",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"s\":\"\\u2028\\u2029\"}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"s\": \"\\u2028\\u2029\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"s\": \"\\u2028\\u2029\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:\"\\x41\",b:\"\\u{1f600}\"}",
+      "indent": "tab",
+      "actual": {
+        "value": "{\n\t\"a\": \"A\",\n\t\"b\": \"😀\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\t\"a\": \"A\",\n\t\"b\": \"😀\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "`hi`",
+      "indent": "tab",
+      "actual": {
+        "value": "\"hi\"",
+        "effects": []
+      },
+      "helper": {
+        "value": "\"hi\"",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "",
+      "indent": "2",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": " ",
+      "indent": "2",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{}",
+      "indent": "2",
+      "actual": {
+        "value": "{}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[]",
+      "indent": "2",
+      "actual": {
+        "value": "[]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "null",
+      "indent": "2",
+      "actual": {
+        "value": "null",
+        "effects": []
+      },
+      "helper": {
+        "value": "null",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "true",
+      "indent": "2",
+      "actual": {
+        "value": "true",
+        "effects": []
+      },
+      "helper": {
+        "value": "true",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "false",
+      "indent": "2",
+      "actual": {
+        "value": "false",
+        "effects": []
+      },
+      "helper": {
+        "value": "false",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "0",
+      "indent": "2",
+      "actual": {
+        "value": "0",
+        "effects": []
+      },
+      "helper": {
+        "value": "0",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "-0",
+      "indent": "2",
+      "actual": {
+        "value": "-0",
+        "effects": []
+      },
+      "helper": {
+        "value": "-0",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1e+02",
+      "indent": "2",
+      "actual": {
+        "value": "1e+02",
+        "effects": []
+      },
+      "helper": {
+        "value": "1e+02",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1E-7",
+      "indent": "2",
+      "actual": {
+        "value": "1E-7",
+        "effects": []
+      },
+      "helper": {
+        "value": "1E-7",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1e400",
+      "indent": "2",
+      "actual": {
+        "value": "1e400",
+        "effects": []
+      },
+      "helper": {
+        "value": "1e400",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "9007199254740993",
+      "indent": "2",
+      "actual": {
+        "value": "9007199254740993",
+        "effects": []
+      },
+      "helper": {
+        "value": "9007199254740993",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":1,\"b\":[2,3]}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"a\": 1,\n  \"b\": [2, 3]\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"a\": 1,\n  \"b\": [2, 3]\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"b\":1,\"a\":2,\"b\":3,\"10\":1,\"2\":2,\"01\":3}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"b\": 1,\n  \"a\": 2,\n  \"b\": 3,\n  \"10\": 1,\n  \"2\": 2,\n  \"01\": 3\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"b\": 1,\n  \"a\": 2,\n  \"b\": 3,\n  \"10\": 1,\n  \"2\": 2,\n  \"01\": 3\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"__proto__\":{\"a\":1},\"x\":2}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"__proto__\": {\n    \"a\": 1\n  },\n  \"x\": 2\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"__proto__\": {\n    \"a\": 1\n  },\n  \"x\": 2\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"x\":-0,\"n\":1.00,\"e\":1E+3,\"v\":9007199254740993}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"x\": -0,\n  \"n\": 1.00,\n  \"e\": 1E+3,\n  \"v\": 9007199254740993\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"x\": -0,\n  \"n\": 1.00,\n  \"e\": 1E+3,\n  \"v\": 9007199254740993\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,2,3]",
+      "indent": "2",
+      "actual": {
+        "value": "[1, 2, 3]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2, 3]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,\n2,\n3]",
+      "indent": "2",
+      "actual": {
+        "value": "[1,\n  2,\n  3\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1,\n  2,\n  3\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1,\n2\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  1,\n  2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  1,\n  2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[1,2],[3,4]]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  [1, 2],\n  [3, 4]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  [1, 2],\n  [3, 4]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{\"a\":1},{\"b\":2}]",
+      "indent": "2",
+      "actual": {
+        "value": "[{\n  \"a\": 1\n}, {\n  \"b\": 2\n}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n  \"a\": 1\n}, {\n  \"b\": 2\n}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\n\n\"a\":1,\n\n\"b\":2\n}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n\n  \"a\": 1,\n\n  \"b\": 2\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\n  \"a\": 1,\n\n  \"b\": 2\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":[],\"b\":{},\"c\":[true,null,\"x\"]}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"a\": [],\n  \"b\": {},\n  \"c\": [true, null, \"x\"]\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"a\": [],\n  \"b\": {},\n  \"c\": [true, null, \"x\"]\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"{\\\"a\\\":1}\"",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"[1,2]\"",
+      "indent": "2",
+      "actual": {
+        "value": "[1, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"hello\"",
+      "indent": "2",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"\"",
+      "indent": "2",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\" \\n \"",
+      "indent": "2",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"\\ud800\"",
+      "indent": "2",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"str\":\"a \\u0041 \\/ \\b \\n \\t \\uD83D\\uDE00 \\ud800 \\udc00\"}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"str\": \"a \\u0041 \\/ \\b \\n \\t \\uD83D\\uDE00 \\ud800 \\udc00\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"str\": \"a \\u0041 \\/ \\b \\n \\t \\uD83D\\uDE00 \\ud800 \\udc00\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\\\"a\\\":1}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\\\"a\\\":\\\"hi\\\"}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"a\": \"hi\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"a\": \"hi\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:1,b:'hi',}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"a\": 1,\n  \"b\": \"hi\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"a\": 1,\n  \"b\": \"hi\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:[1,2,],b:{z:true,},}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"a\": [1, 2],\n  \"b\": {\n    \"z\": true\n  }\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"a\": [1, 2],\n  \"b\": {\n    \"z\": true\n  }\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{'2':'two','1':'one',z:-0,a:1e2}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"1\": \"one\",\n  \"2\": \"two\",\n  \"z\": 0,\n  \"a\": 100\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"1\": \"one\",\n  \"2\": \"two\",\n  \"z\": 0,\n  \"a\": 100\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:1,a:2,__proto__:{ignored:true},z:undefined,b:NaN,c:Infinity}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"a\": 2,\n  \"b\": null,\n  \"c\": null\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"a\": 2,\n  \"b\": null,\n  \"c\": null\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,,3,undefined,NaN,Infinity,-Infinity]",
+      "indent": "2",
+      "actual": {
+        "value": "[1, null, 3, null, null, null, null]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, null, 3, null, null, null, null]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "+2",
+      "indent": "2",
+      "actual": {
+        "value": "2",
+        "effects": []
+      },
+      "helper": {
+        "value": "2",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "0x10",
+      "indent": "2",
+      "actual": {
+        "value": "16",
+        "effects": []
+      },
+      "helper": {
+        "value": "16",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "-0x10",
+      "indent": "2",
+      "actual": {
+        "value": "-16",
+        "effects": []
+      },
+      "helper": {
+        "value": "-16",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "0b11",
+      "indent": "2",
+      "actual": {
+        "value": "3",
+        "effects": []
+      },
+      "helper": {
+        "value": "3",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "0o17",
+      "indent": "2",
+      "actual": {
+        "value": "15",
+        "effects": []
+      },
+      "helper": {
+        "value": "15",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": ".5",
+      "indent": "2",
+      "actual": {
+        "value": "0.5",
+        "effects": []
+      },
+      "helper": {
+        "value": "0.5",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1.",
+      "indent": "2",
+      "actual": {
+        "value": "1",
+        "effects": []
+      },
+      "helper": {
+        "value": "1",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:\"paren()\"}",
+      "indent": "2",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:`hello`}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"a\": \"hello\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"a\": \"hello\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":1};",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": " [1,2] ",
+      "indent": "2",
+      "actual": {
+        "value": "[1, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,2];",
+      "indent": "2",
+      "actual": {
+        "value": "[1, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "null;",
+      "indent": "2",
+      "actual": {
+        "value": "null",
+        "effects": []
+      },
+      "helper": {
+        "value": "null",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "no json {{{",
+      "indent": "2",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":}",
+      "indent": "2",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"bad",
+      "indent": "2",
+      "actual": {
+        "value": null,
+        "error": "TypeError: Cannot read properties of undefined (reading 'endsWith')",
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please enter a valid JSON string"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:unknownVariable}",
+      "indent": "2",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "(function(){})()",
+      "indent": "2",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "tag`x`",
+      "indent": "2",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1+2",
+      "indent": "2",
+      "actual": {
+        "value": "3",
+        "effects": []
+      },
+      "helper": {
+        "value": "3",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[...[]]",
+      "indent": "2",
+      "actual": {
+        "value": "[]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[0,2]",
+      "indent": "2",
+      "actual": {
+        "value": "[0, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[0, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n0,\n2\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  0,\n  2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  0,\n  2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[0,{}]",
+      "indent": "2",
+      "actual": {
+        "value": "[0, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[0, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n0,\n{}\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  0,\n  {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  0,\n  {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[0,[3]]",
+      "indent": "2",
+      "actual": {
+        "value": "[0, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[0, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n0,\n[3]\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  0,\n  [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  0,\n  [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[-0,2]",
+      "indent": "2",
+      "actual": {
+        "value": "[-0, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[-0, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n-0,\n2\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  -0,\n  2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  -0,\n  2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[-0,{}]",
+      "indent": "2",
+      "actual": {
+        "value": "[-0, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[-0, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n-0,\n{}\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  -0,\n  {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  -0,\n  {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[-0,[3]]",
+      "indent": "2",
+      "actual": {
+        "value": "[-0, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[-0, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n-0,\n[3]\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  -0,\n  [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  -0,\n  [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1.2300,2]",
+      "indent": "2",
+      "actual": {
+        "value": "[1.2300, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1.2300, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1.2300,\n2\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  1.2300,\n  2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  1.2300,\n  2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1.2300,{}]",
+      "indent": "2",
+      "actual": {
+        "value": "[1.2300, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1.2300, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1.2300,\n{}\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  1.2300,\n  {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  1.2300,\n  {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1.2300,[3]]",
+      "indent": "2",
+      "actual": {
+        "value": "[1.2300, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1.2300, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1.2300,\n[3]\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  1.2300,\n  [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  1.2300,\n  [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e-7,2]",
+      "indent": "2",
+      "actual": {
+        "value": "[1e-7, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e-7, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e-7,\n2\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  1e-7,\n  2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  1e-7,\n  2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e-7,{}]",
+      "indent": "2",
+      "actual": {
+        "value": "[1e-7, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e-7, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e-7,\n{}\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  1e-7,\n  {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  1e-7,\n  {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e-7,[3]]",
+      "indent": "2",
+      "actual": {
+        "value": "[1e-7, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e-7, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e-7,\n[3]\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  1e-7,\n  [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  1e-7,\n  [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e21,2]",
+      "indent": "2",
+      "actual": {
+        "value": "[1e21, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e21, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e21,\n2\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  1e21,\n  2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  1e21,\n  2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e21,{}]",
+      "indent": "2",
+      "actual": {
+        "value": "[1e21, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e21, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e21,\n{}\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  1e21,\n  {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  1e21,\n  {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e21,[3]]",
+      "indent": "2",
+      "actual": {
+        "value": "[1e21, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e21, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e21,\n[3]\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  1e21,\n  [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  1e21,\n  [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[9007199254740993,2]",
+      "indent": "2",
+      "actual": {
+        "value": "[9007199254740993, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[9007199254740993, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n9007199254740993,\n2\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  9007199254740993,\n  2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  9007199254740993,\n  2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[9007199254740993,{}]",
+      "indent": "2",
+      "actual": {
+        "value": "[9007199254740993, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[9007199254740993, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n9007199254740993,\n{}\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  9007199254740993,\n  {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  9007199254740993,\n  {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[9007199254740993,[3]]",
+      "indent": "2",
+      "actual": {
+        "value": "[9007199254740993, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[9007199254740993, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n9007199254740993,\n[3]\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  9007199254740993,\n  [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  9007199254740993,\n  [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[true,2]",
+      "indent": "2",
+      "actual": {
+        "value": "[true, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[true, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\ntrue,\n2\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  true,\n  2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  true,\n  2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[true,{}]",
+      "indent": "2",
+      "actual": {
+        "value": "[true, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[true, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\ntrue,\n{}\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  true,\n  {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  true,\n  {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[true,[3]]",
+      "indent": "2",
+      "actual": {
+        "value": "[true, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[true, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\ntrue,\n[3]\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  true,\n  [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  true,\n  [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[null,2]",
+      "indent": "2",
+      "actual": {
+        "value": "[null, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\nnull,\n2\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  null,\n  2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  null,\n  2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[null,{}]",
+      "indent": "2",
+      "actual": {
+        "value": "[null, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\nnull,\n{}\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  null,\n  {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  null,\n  {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[null,[3]]",
+      "indent": "2",
+      "actual": {
+        "value": "[null, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\nnull,\n[3]\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  null,\n  [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  null,\n  [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\"x\",2]",
+      "indent": "2",
+      "actual": {
+        "value": "[\"x\", 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\"x\", 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n\"x\",\n2\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  \"x\",\n  2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  \"x\",\n  2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\"x\",{}]",
+      "indent": "2",
+      "actual": {
+        "value": "[\"x\", {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\"x\", {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n\"x\",\n{}\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  \"x\",\n  {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  \"x\",\n  {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\"x\",[3]]",
+      "indent": "2",
+      "actual": {
+        "value": "[\"x\", [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\"x\", [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n\"x\",\n[3]\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  \"x\",\n  [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  \"x\",\n  [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},2]",
+      "indent": "2",
+      "actual": {
+        "value": "[{}, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{}, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{},\n2\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[{},\n  2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{},\n  2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},{}]",
+      "indent": "2",
+      "actual": {
+        "value": "[{}, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{}, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{},\n{}\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[{},\n  {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{},\n  {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},[3]]",
+      "indent": "2",
+      "actual": {
+        "value": "[{},\n  [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{},\n  [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{},\n[3]\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[{},\n  [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{},\n  [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[],2]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  [], 2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  [], 2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[],\n2\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  [],\n  2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  [],\n  2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[],{}]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  [], {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  [], {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[],\n{}\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  [],\n  {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  [],\n  {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[],[3]]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  [],\n  [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  [],\n  [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[],\n[3]\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  [],\n  [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  [],\n  [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{\"a\":1},2]",
+      "indent": "2",
+      "actual": {
+        "value": "[{\n  \"a\": 1\n}, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n  \"a\": 1\n}, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{\"a\":1},\n2\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[{\n    \"a\": 1\n  },\n  2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n    \"a\": 1\n  },\n  2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{\"a\":1},{}]",
+      "indent": "2",
+      "actual": {
+        "value": "[{\n  \"a\": 1\n}, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n  \"a\": 1\n}, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{\"a\":1},\n{}\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[{\n    \"a\": 1\n  },\n  {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n    \"a\": 1\n  },\n  {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{\"a\":1},[3]]",
+      "indent": "2",
+      "actual": {
+        "value": "[{\n    \"a\": 1\n  },\n  [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n    \"a\": 1\n  },\n  [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{\"a\":1},\n[3]\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[{\n    \"a\": 1\n  },\n  [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n    \"a\": 1\n  },\n  [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[1,2],2]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  [1, 2], 2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  [1, 2], 2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[1,2],\n2\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  [1, 2],\n  2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  [1, 2],\n  2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[1,2],{}]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  [1, 2], {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  [1, 2], {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[1,2],\n{}\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  [1, 2],\n  {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  [1, 2],\n  {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[1,2],[3]]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  [1, 2],\n  [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  [1, 2],\n  [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[1,2],\n[3]\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[\n  [1, 2],\n  [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n  [1, 2],\n  [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,2\n]",
+      "indent": "2",
+      "actual": {
+        "value": "[1, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},{}]",
+      "indent": "2",
+      "actual": {
+        "value": "[{}, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{}, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},{\"a\":1}]",
+      "indent": "2",
+      "actual": {
+        "value": "[{}, {\n  \"a\": 1\n}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{}, {\n  \"a\": 1\n}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,{\"a\":2},3]",
+      "indent": "2",
+      "actual": {
+        "value": "[1, {\n  \"a\": 2\n}, 3]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, {\n  \"a\": 2\n}, 3]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":\n1}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":\n{\"b\":2}}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"a\": {\n    \"b\": 2\n  }\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"a\": {\n    \"b\": 2\n  }\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":[[1],[2]]}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"a\": [\n    [1],\n    [2]\n  ]\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"a\": [\n    [1],\n    [2]\n  ]\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":[{\"b\":2},{\"c\":3}]}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"a\": [{\n    \"b\": 2\n  }, {\n    \"c\": 3\n  }]\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"a\": [{\n    \"b\": 2\n  }, {\n    \"c\": 3\n  }]\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,\n\n2]",
+      "indent": "2",
+      "actual": {
+        "value": "[1,\n\n  2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1,\n\n  2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[,]",
+      "indent": "2",
+      "actual": {
+        "value": "[null]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[,,]",
+      "indent": "2",
+      "actual": {
+        "value": "[null, null]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null, null]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,,]",
+      "indent": "2",
+      "actual": {
+        "value": "[1, null]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, null]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":1,}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{__proto__:null,x:1}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"x\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"x\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{__proto__:1,x:2}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"x\": 2\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"x\": 2\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{['a']:1}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:1,__proto__:{},__proto__:null}",
+      "indent": "2",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1_000",
+      "indent": "2",
+      "actual": {
+        "value": "1000",
+        "effects": []
+      },
+      "helper": {
+        "value": "1000",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1e-324",
+      "indent": "2",
+      "actual": {
+        "value": "1e-324",
+        "effects": []
+      },
+      "helper": {
+        "value": "1e-324",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "5e-324",
+      "indent": "2",
+      "actual": {
+        "value": "5e-324",
+        "effects": []
+      },
+      "helper": {
+        "value": "5e-324",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "-1e400",
+      "indent": "2",
+      "actual": {
+        "value": "-1e400",
+        "effects": []
+      },
+      "helper": {
+        "value": "-1e400",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"s\":\"\\u2028\\u2029\"}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"s\": \"\\u2028\\u2029\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"s\": \"\\u2028\\u2029\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:\"\\x41\",b:\"\\u{1f600}\"}",
+      "indent": "2",
+      "actual": {
+        "value": "{\n  \"a\": \"A\",\n  \"b\": \"😀\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n  \"a\": \"A\",\n  \"b\": \"😀\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "`hi`",
+      "indent": "2",
+      "actual": {
+        "value": "\"hi\"",
+        "effects": []
+      },
+      "helper": {
+        "value": "\"hi\"",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "",
+      "indent": "4",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": " ",
+      "indent": "4",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{}",
+      "indent": "4",
+      "actual": {
+        "value": "{}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[]",
+      "indent": "4",
+      "actual": {
+        "value": "[]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "null",
+      "indent": "4",
+      "actual": {
+        "value": "null",
+        "effects": []
+      },
+      "helper": {
+        "value": "null",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "true",
+      "indent": "4",
+      "actual": {
+        "value": "true",
+        "effects": []
+      },
+      "helper": {
+        "value": "true",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "false",
+      "indent": "4",
+      "actual": {
+        "value": "false",
+        "effects": []
+      },
+      "helper": {
+        "value": "false",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "0",
+      "indent": "4",
+      "actual": {
+        "value": "0",
+        "effects": []
+      },
+      "helper": {
+        "value": "0",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "-0",
+      "indent": "4",
+      "actual": {
+        "value": "-0",
+        "effects": []
+      },
+      "helper": {
+        "value": "-0",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1e+02",
+      "indent": "4",
+      "actual": {
+        "value": "1e+02",
+        "effects": []
+      },
+      "helper": {
+        "value": "1e+02",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1E-7",
+      "indent": "4",
+      "actual": {
+        "value": "1E-7",
+        "effects": []
+      },
+      "helper": {
+        "value": "1E-7",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1e400",
+      "indent": "4",
+      "actual": {
+        "value": "1e400",
+        "effects": []
+      },
+      "helper": {
+        "value": "1e400",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "9007199254740993",
+      "indent": "4",
+      "actual": {
+        "value": "9007199254740993",
+        "effects": []
+      },
+      "helper": {
+        "value": "9007199254740993",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":1,\"b\":[2,3]}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"a\": 1,\n    \"b\": [2, 3]\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"a\": 1,\n    \"b\": [2, 3]\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"b\":1,\"a\":2,\"b\":3,\"10\":1,\"2\":2,\"01\":3}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"b\": 1,\n    \"a\": 2,\n    \"b\": 3,\n    \"10\": 1,\n    \"2\": 2,\n    \"01\": 3\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"b\": 1,\n    \"a\": 2,\n    \"b\": 3,\n    \"10\": 1,\n    \"2\": 2,\n    \"01\": 3\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"__proto__\":{\"a\":1},\"x\":2}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"__proto__\": {\n        \"a\": 1\n    },\n    \"x\": 2\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"__proto__\": {\n        \"a\": 1\n    },\n    \"x\": 2\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"x\":-0,\"n\":1.00,\"e\":1E+3,\"v\":9007199254740993}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"x\": -0,\n    \"n\": 1.00,\n    \"e\": 1E+3,\n    \"v\": 9007199254740993\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"x\": -0,\n    \"n\": 1.00,\n    \"e\": 1E+3,\n    \"v\": 9007199254740993\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,2,3]",
+      "indent": "4",
+      "actual": {
+        "value": "[1, 2, 3]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2, 3]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,\n2,\n3]",
+      "indent": "4",
+      "actual": {
+        "value": "[1,\n    2,\n    3\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1,\n    2,\n    3\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1,\n2\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    1,\n    2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    1,\n    2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[1,2],[3,4]]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    [1, 2],\n    [3, 4]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    [1, 2],\n    [3, 4]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{\"a\":1},{\"b\":2}]",
+      "indent": "4",
+      "actual": {
+        "value": "[{\n    \"a\": 1\n}, {\n    \"b\": 2\n}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n    \"a\": 1\n}, {\n    \"b\": 2\n}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\n\n\"a\":1,\n\n\"b\":2\n}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n\n    \"a\": 1,\n\n    \"b\": 2\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\n    \"a\": 1,\n\n    \"b\": 2\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":[],\"b\":{},\"c\":[true,null,\"x\"]}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"a\": [],\n    \"b\": {},\n    \"c\": [true, null, \"x\"]\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"a\": [],\n    \"b\": {},\n    \"c\": [true, null, \"x\"]\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"{\\\"a\\\":1}\"",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"[1,2]\"",
+      "indent": "4",
+      "actual": {
+        "value": "[1, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"hello\"",
+      "indent": "4",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"\"",
+      "indent": "4",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\" \\n \"",
+      "indent": "4",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"\\ud800\"",
+      "indent": "4",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"str\":\"a \\u0041 \\/ \\b \\n \\t \\uD83D\\uDE00 \\ud800 \\udc00\"}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"str\": \"a \\u0041 \\/ \\b \\n \\t \\uD83D\\uDE00 \\ud800 \\udc00\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"str\": \"a \\u0041 \\/ \\b \\n \\t \\uD83D\\uDE00 \\ud800 \\udc00\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\\\"a\\\":1}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\\\"a\\\":\\\"hi\\\"}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"a\": \"hi\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"a\": \"hi\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:1,b:'hi',}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"a\": 1,\n    \"b\": \"hi\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"a\": 1,\n    \"b\": \"hi\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:[1,2,],b:{z:true,},}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"a\": [1, 2],\n    \"b\": {\n        \"z\": true\n    }\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"a\": [1, 2],\n    \"b\": {\n        \"z\": true\n    }\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{'2':'two','1':'one',z:-0,a:1e2}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"1\": \"one\",\n    \"2\": \"two\",\n    \"z\": 0,\n    \"a\": 100\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"1\": \"one\",\n    \"2\": \"two\",\n    \"z\": 0,\n    \"a\": 100\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:1,a:2,__proto__:{ignored:true},z:undefined,b:NaN,c:Infinity}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"a\": 2,\n    \"b\": null,\n    \"c\": null\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"a\": 2,\n    \"b\": null,\n    \"c\": null\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,,3,undefined,NaN,Infinity,-Infinity]",
+      "indent": "4",
+      "actual": {
+        "value": "[1, null, 3, null, null, null, null]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, null, 3, null, null, null, null]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "+2",
+      "indent": "4",
+      "actual": {
+        "value": "2",
+        "effects": []
+      },
+      "helper": {
+        "value": "2",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "0x10",
+      "indent": "4",
+      "actual": {
+        "value": "16",
+        "effects": []
+      },
+      "helper": {
+        "value": "16",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "-0x10",
+      "indent": "4",
+      "actual": {
+        "value": "-16",
+        "effects": []
+      },
+      "helper": {
+        "value": "-16",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "0b11",
+      "indent": "4",
+      "actual": {
+        "value": "3",
+        "effects": []
+      },
+      "helper": {
+        "value": "3",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "0o17",
+      "indent": "4",
+      "actual": {
+        "value": "15",
+        "effects": []
+      },
+      "helper": {
+        "value": "15",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": ".5",
+      "indent": "4",
+      "actual": {
+        "value": "0.5",
+        "effects": []
+      },
+      "helper": {
+        "value": "0.5",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1.",
+      "indent": "4",
+      "actual": {
+        "value": "1",
+        "effects": []
+      },
+      "helper": {
+        "value": "1",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:\"paren()\"}",
+      "indent": "4",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:`hello`}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"a\": \"hello\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"a\": \"hello\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":1};",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": " [1,2] ",
+      "indent": "4",
+      "actual": {
+        "value": "[1, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,2];",
+      "indent": "4",
+      "actual": {
+        "value": "[1, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "null;",
+      "indent": "4",
+      "actual": {
+        "value": "null",
+        "effects": []
+      },
+      "helper": {
+        "value": "null",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "no json {{{",
+      "indent": "4",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":}",
+      "indent": "4",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"bad",
+      "indent": "4",
+      "actual": {
+        "value": null,
+        "error": "TypeError: Cannot read properties of undefined (reading 'endsWith')",
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please enter a valid JSON string"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:unknownVariable}",
+      "indent": "4",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "(function(){})()",
+      "indent": "4",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "tag`x`",
+      "indent": "4",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1+2",
+      "indent": "4",
+      "actual": {
+        "value": "3",
+        "effects": []
+      },
+      "helper": {
+        "value": "3",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[...[]]",
+      "indent": "4",
+      "actual": {
+        "value": "[]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[0,2]",
+      "indent": "4",
+      "actual": {
+        "value": "[0, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[0, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n0,\n2\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    0,\n    2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    0,\n    2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[0,{}]",
+      "indent": "4",
+      "actual": {
+        "value": "[0, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[0, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n0,\n{}\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    0,\n    {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    0,\n    {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[0,[3]]",
+      "indent": "4",
+      "actual": {
+        "value": "[0, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[0, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n0,\n[3]\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    0,\n    [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    0,\n    [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[-0,2]",
+      "indent": "4",
+      "actual": {
+        "value": "[-0, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[-0, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n-0,\n2\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    -0,\n    2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    -0,\n    2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[-0,{}]",
+      "indent": "4",
+      "actual": {
+        "value": "[-0, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[-0, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n-0,\n{}\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    -0,\n    {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    -0,\n    {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[-0,[3]]",
+      "indent": "4",
+      "actual": {
+        "value": "[-0, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[-0, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n-0,\n[3]\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    -0,\n    [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    -0,\n    [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1.2300,2]",
+      "indent": "4",
+      "actual": {
+        "value": "[1.2300, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1.2300, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1.2300,\n2\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    1.2300,\n    2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    1.2300,\n    2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1.2300,{}]",
+      "indent": "4",
+      "actual": {
+        "value": "[1.2300, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1.2300, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1.2300,\n{}\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    1.2300,\n    {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    1.2300,\n    {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1.2300,[3]]",
+      "indent": "4",
+      "actual": {
+        "value": "[1.2300, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1.2300, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1.2300,\n[3]\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    1.2300,\n    [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    1.2300,\n    [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e-7,2]",
+      "indent": "4",
+      "actual": {
+        "value": "[1e-7, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e-7, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e-7,\n2\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    1e-7,\n    2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    1e-7,\n    2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e-7,{}]",
+      "indent": "4",
+      "actual": {
+        "value": "[1e-7, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e-7, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e-7,\n{}\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    1e-7,\n    {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    1e-7,\n    {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e-7,[3]]",
+      "indent": "4",
+      "actual": {
+        "value": "[1e-7, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e-7, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e-7,\n[3]\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    1e-7,\n    [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    1e-7,\n    [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e21,2]",
+      "indent": "4",
+      "actual": {
+        "value": "[1e21, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e21, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e21,\n2\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    1e21,\n    2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    1e21,\n    2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e21,{}]",
+      "indent": "4",
+      "actual": {
+        "value": "[1e21, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e21, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e21,\n{}\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    1e21,\n    {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    1e21,\n    {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e21,[3]]",
+      "indent": "4",
+      "actual": {
+        "value": "[1e21, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e21, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e21,\n[3]\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    1e21,\n    [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    1e21,\n    [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[9007199254740993,2]",
+      "indent": "4",
+      "actual": {
+        "value": "[9007199254740993, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[9007199254740993, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n9007199254740993,\n2\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    9007199254740993,\n    2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    9007199254740993,\n    2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[9007199254740993,{}]",
+      "indent": "4",
+      "actual": {
+        "value": "[9007199254740993, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[9007199254740993, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n9007199254740993,\n{}\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    9007199254740993,\n    {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    9007199254740993,\n    {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[9007199254740993,[3]]",
+      "indent": "4",
+      "actual": {
+        "value": "[9007199254740993, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[9007199254740993, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n9007199254740993,\n[3]\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    9007199254740993,\n    [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    9007199254740993,\n    [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[true,2]",
+      "indent": "4",
+      "actual": {
+        "value": "[true, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[true, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\ntrue,\n2\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    true,\n    2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    true,\n    2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[true,{}]",
+      "indent": "4",
+      "actual": {
+        "value": "[true, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[true, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\ntrue,\n{}\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    true,\n    {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    true,\n    {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[true,[3]]",
+      "indent": "4",
+      "actual": {
+        "value": "[true, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[true, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\ntrue,\n[3]\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    true,\n    [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    true,\n    [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[null,2]",
+      "indent": "4",
+      "actual": {
+        "value": "[null, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\nnull,\n2\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    null,\n    2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    null,\n    2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[null,{}]",
+      "indent": "4",
+      "actual": {
+        "value": "[null, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\nnull,\n{}\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    null,\n    {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    null,\n    {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[null,[3]]",
+      "indent": "4",
+      "actual": {
+        "value": "[null, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\nnull,\n[3]\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    null,\n    [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    null,\n    [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\"x\",2]",
+      "indent": "4",
+      "actual": {
+        "value": "[\"x\", 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\"x\", 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n\"x\",\n2\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    \"x\",\n    2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    \"x\",\n    2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\"x\",{}]",
+      "indent": "4",
+      "actual": {
+        "value": "[\"x\", {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\"x\", {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n\"x\",\n{}\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    \"x\",\n    {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    \"x\",\n    {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\"x\",[3]]",
+      "indent": "4",
+      "actual": {
+        "value": "[\"x\", [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\"x\", [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n\"x\",\n[3]\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    \"x\",\n    [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    \"x\",\n    [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},2]",
+      "indent": "4",
+      "actual": {
+        "value": "[{}, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{}, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{},\n2\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[{},\n    2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{},\n    2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},{}]",
+      "indent": "4",
+      "actual": {
+        "value": "[{}, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{}, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{},\n{}\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[{},\n    {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{},\n    {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},[3]]",
+      "indent": "4",
+      "actual": {
+        "value": "[{},\n    [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{},\n    [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{},\n[3]\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[{},\n    [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{},\n    [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[],2]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    [], 2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    [], 2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[],\n2\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    [],\n    2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    [],\n    2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[],{}]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    [], {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    [], {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[],\n{}\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    [],\n    {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    [],\n    {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[],[3]]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    [],\n    [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    [],\n    [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[],\n[3]\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    [],\n    [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    [],\n    [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{\"a\":1},2]",
+      "indent": "4",
+      "actual": {
+        "value": "[{\n    \"a\": 1\n}, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n    \"a\": 1\n}, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{\"a\":1},\n2\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[{\n        \"a\": 1\n    },\n    2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n        \"a\": 1\n    },\n    2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{\"a\":1},{}]",
+      "indent": "4",
+      "actual": {
+        "value": "[{\n    \"a\": 1\n}, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n    \"a\": 1\n}, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{\"a\":1},\n{}\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[{\n        \"a\": 1\n    },\n    {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n        \"a\": 1\n    },\n    {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{\"a\":1},[3]]",
+      "indent": "4",
+      "actual": {
+        "value": "[{\n        \"a\": 1\n    },\n    [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n        \"a\": 1\n    },\n    [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{\"a\":1},\n[3]\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[{\n        \"a\": 1\n    },\n    [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n        \"a\": 1\n    },\n    [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[1,2],2]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    [1, 2], 2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    [1, 2], 2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[1,2],\n2\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    [1, 2],\n    2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    [1, 2],\n    2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[1,2],{}]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    [1, 2], {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    [1, 2], {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[1,2],\n{}\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    [1, 2],\n    {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    [1, 2],\n    {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[1,2],[3]]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    [1, 2],\n    [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    [1, 2],\n    [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[1,2],\n[3]\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[\n    [1, 2],\n    [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n    [1, 2],\n    [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,2\n]",
+      "indent": "4",
+      "actual": {
+        "value": "[1, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},{}]",
+      "indent": "4",
+      "actual": {
+        "value": "[{}, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{}, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},{\"a\":1}]",
+      "indent": "4",
+      "actual": {
+        "value": "[{}, {\n    \"a\": 1\n}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{}, {\n    \"a\": 1\n}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,{\"a\":2},3]",
+      "indent": "4",
+      "actual": {
+        "value": "[1, {\n    \"a\": 2\n}, 3]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, {\n    \"a\": 2\n}, 3]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":\n1}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":\n{\"b\":2}}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"a\": {\n        \"b\": 2\n    }\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"a\": {\n        \"b\": 2\n    }\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":[[1],[2]]}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"a\": [\n        [1],\n        [2]\n    ]\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"a\": [\n        [1],\n        [2]\n    ]\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":[{\"b\":2},{\"c\":3}]}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"a\": [{\n        \"b\": 2\n    }, {\n        \"c\": 3\n    }]\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"a\": [{\n        \"b\": 2\n    }, {\n        \"c\": 3\n    }]\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,\n\n2]",
+      "indent": "4",
+      "actual": {
+        "value": "[1,\n\n    2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1,\n\n    2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[,]",
+      "indent": "4",
+      "actual": {
+        "value": "[null]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[,,]",
+      "indent": "4",
+      "actual": {
+        "value": "[null, null]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null, null]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,,]",
+      "indent": "4",
+      "actual": {
+        "value": "[1, null]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, null]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":1,}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{__proto__:null,x:1}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"x\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"x\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{__proto__:1,x:2}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"x\": 2\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"x\": 2\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{['a']:1}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:1,__proto__:{},__proto__:null}",
+      "indent": "4",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1_000",
+      "indent": "4",
+      "actual": {
+        "value": "1000",
+        "effects": []
+      },
+      "helper": {
+        "value": "1000",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1e-324",
+      "indent": "4",
+      "actual": {
+        "value": "1e-324",
+        "effects": []
+      },
+      "helper": {
+        "value": "1e-324",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "5e-324",
+      "indent": "4",
+      "actual": {
+        "value": "5e-324",
+        "effects": []
+      },
+      "helper": {
+        "value": "5e-324",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "-1e400",
+      "indent": "4",
+      "actual": {
+        "value": "-1e400",
+        "effects": []
+      },
+      "helper": {
+        "value": "-1e400",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"s\":\"\\u2028\\u2029\"}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"s\": \"\\u2028\\u2029\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"s\": \"\\u2028\\u2029\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:\"\\x41\",b:\"\\u{1f600}\"}",
+      "indent": "4",
+      "actual": {
+        "value": "{\n    \"a\": \"A\",\n    \"b\": \"😀\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n    \"a\": \"A\",\n    \"b\": \"😀\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "`hi`",
+      "indent": "4",
+      "actual": {
+        "value": "\"hi\"",
+        "effects": []
+      },
+      "helper": {
+        "value": "\"hi\"",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "",
+      "indent": "8",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": " ",
+      "indent": "8",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{}",
+      "indent": "8",
+      "actual": {
+        "value": "{}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[]",
+      "indent": "8",
+      "actual": {
+        "value": "[]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "null",
+      "indent": "8",
+      "actual": {
+        "value": "null",
+        "effects": []
+      },
+      "helper": {
+        "value": "null",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "true",
+      "indent": "8",
+      "actual": {
+        "value": "true",
+        "effects": []
+      },
+      "helper": {
+        "value": "true",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "false",
+      "indent": "8",
+      "actual": {
+        "value": "false",
+        "effects": []
+      },
+      "helper": {
+        "value": "false",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "0",
+      "indent": "8",
+      "actual": {
+        "value": "0",
+        "effects": []
+      },
+      "helper": {
+        "value": "0",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "-0",
+      "indent": "8",
+      "actual": {
+        "value": "-0",
+        "effects": []
+      },
+      "helper": {
+        "value": "-0",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1e+02",
+      "indent": "8",
+      "actual": {
+        "value": "1e+02",
+        "effects": []
+      },
+      "helper": {
+        "value": "1e+02",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1E-7",
+      "indent": "8",
+      "actual": {
+        "value": "1E-7",
+        "effects": []
+      },
+      "helper": {
+        "value": "1E-7",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1e400",
+      "indent": "8",
+      "actual": {
+        "value": "1e400",
+        "effects": []
+      },
+      "helper": {
+        "value": "1e400",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "9007199254740993",
+      "indent": "8",
+      "actual": {
+        "value": "9007199254740993",
+        "effects": []
+      },
+      "helper": {
+        "value": "9007199254740993",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":1,\"b\":[2,3]}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"a\": 1,\n        \"b\": [2, 3]\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"a\": 1,\n        \"b\": [2, 3]\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"b\":1,\"a\":2,\"b\":3,\"10\":1,\"2\":2,\"01\":3}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"b\": 1,\n        \"a\": 2,\n        \"b\": 3,\n        \"10\": 1,\n        \"2\": 2,\n        \"01\": 3\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"b\": 1,\n        \"a\": 2,\n        \"b\": 3,\n        \"10\": 1,\n        \"2\": 2,\n        \"01\": 3\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"__proto__\":{\"a\":1},\"x\":2}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"__proto__\": {\n                \"a\": 1\n        },\n        \"x\": 2\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"__proto__\": {\n                \"a\": 1\n        },\n        \"x\": 2\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"x\":-0,\"n\":1.00,\"e\":1E+3,\"v\":9007199254740993}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"x\": -0,\n        \"n\": 1.00,\n        \"e\": 1E+3,\n        \"v\": 9007199254740993\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"x\": -0,\n        \"n\": 1.00,\n        \"e\": 1E+3,\n        \"v\": 9007199254740993\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,2,3]",
+      "indent": "8",
+      "actual": {
+        "value": "[1, 2, 3]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2, 3]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,\n2,\n3]",
+      "indent": "8",
+      "actual": {
+        "value": "[1,\n        2,\n        3\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1,\n        2,\n        3\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1,\n2\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        1,\n        2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        1,\n        2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[1,2],[3,4]]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        [1, 2],\n        [3, 4]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        [1, 2],\n        [3, 4]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{\"a\":1},{\"b\":2}]",
+      "indent": "8",
+      "actual": {
+        "value": "[{\n        \"a\": 1\n}, {\n        \"b\": 2\n}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n        \"a\": 1\n}, {\n        \"b\": 2\n}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\n\n\"a\":1,\n\n\"b\":2\n}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n\n        \"a\": 1,\n\n        \"b\": 2\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n\n        \"a\": 1,\n\n        \"b\": 2\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":[],\"b\":{},\"c\":[true,null,\"x\"]}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"a\": [],\n        \"b\": {},\n        \"c\": [true, null, \"x\"]\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"a\": [],\n        \"b\": {},\n        \"c\": [true, null, \"x\"]\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"{\\\"a\\\":1}\"",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"[1,2]\"",
+      "indent": "8",
+      "actual": {
+        "value": "[1, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"hello\"",
+      "indent": "8",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"\"",
+      "indent": "8",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\" \\n \"",
+      "indent": "8",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"\\ud800\"",
+      "indent": "8",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"str\":\"a \\u0041 \\/ \\b \\n \\t \\uD83D\\uDE00 \\ud800 \\udc00\"}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"str\": \"a \\u0041 \\/ \\b \\n \\t \\uD83D\\uDE00 \\ud800 \\udc00\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"str\": \"a \\u0041 \\/ \\b \\n \\t \\uD83D\\uDE00 \\ud800 \\udc00\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\\\"a\\\":1}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\\\"a\\\":\\\"hi\\\"}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"a\": \"hi\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"a\": \"hi\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:1,b:'hi',}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"a\": 1,\n        \"b\": \"hi\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"a\": 1,\n        \"b\": \"hi\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:[1,2,],b:{z:true,},}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"a\": [1, 2],\n        \"b\": {\n                \"z\": true\n        }\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"a\": [1, 2],\n        \"b\": {\n                \"z\": true\n        }\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{'2':'two','1':'one',z:-0,a:1e2}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"1\": \"one\",\n        \"2\": \"two\",\n        \"z\": 0,\n        \"a\": 100\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"1\": \"one\",\n        \"2\": \"two\",\n        \"z\": 0,\n        \"a\": 100\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:1,a:2,__proto__:{ignored:true},z:undefined,b:NaN,c:Infinity}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"a\": 2,\n        \"b\": null,\n        \"c\": null\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"a\": 2,\n        \"b\": null,\n        \"c\": null\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,,3,undefined,NaN,Infinity,-Infinity]",
+      "indent": "8",
+      "actual": {
+        "value": "[1, null, 3, null, null, null, null]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, null, 3, null, null, null, null]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "+2",
+      "indent": "8",
+      "actual": {
+        "value": "2",
+        "effects": []
+      },
+      "helper": {
+        "value": "2",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "0x10",
+      "indent": "8",
+      "actual": {
+        "value": "16",
+        "effects": []
+      },
+      "helper": {
+        "value": "16",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "-0x10",
+      "indent": "8",
+      "actual": {
+        "value": "-16",
+        "effects": []
+      },
+      "helper": {
+        "value": "-16",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "0b11",
+      "indent": "8",
+      "actual": {
+        "value": "3",
+        "effects": []
+      },
+      "helper": {
+        "value": "3",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "0o17",
+      "indent": "8",
+      "actual": {
+        "value": "15",
+        "effects": []
+      },
+      "helper": {
+        "value": "15",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": ".5",
+      "indent": "8",
+      "actual": {
+        "value": "0.5",
+        "effects": []
+      },
+      "helper": {
+        "value": "0.5",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1.",
+      "indent": "8",
+      "actual": {
+        "value": "1",
+        "effects": []
+      },
+      "helper": {
+        "value": "1",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:\"paren()\"}",
+      "indent": "8",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:`hello`}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"a\": \"hello\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"a\": \"hello\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":1};",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": " [1,2] ",
+      "indent": "8",
+      "actual": {
+        "value": "[1, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,2];",
+      "indent": "8",
+      "actual": {
+        "value": "[1, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "null;",
+      "indent": "8",
+      "actual": {
+        "value": "null",
+        "effects": []
+      },
+      "helper": {
+        "value": "null",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "no json {{{",
+      "indent": "8",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":}",
+      "indent": "8",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "\"bad",
+      "indent": "8",
+      "actual": {
+        "value": null,
+        "error": "TypeError: Cannot read properties of undefined (reading 'endsWith')",
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please enter a valid JSON string"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:unknownVariable}",
+      "indent": "8",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "(function(){})()",
+      "indent": "8",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "tag`x`",
+      "indent": "8",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1+2",
+      "indent": "8",
+      "actual": {
+        "value": "3",
+        "effects": []
+      },
+      "helper": {
+        "value": "3",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[...[]]",
+      "indent": "8",
+      "actual": {
+        "value": "[]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[0,2]",
+      "indent": "8",
+      "actual": {
+        "value": "[0, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[0, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n0,\n2\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        0,\n        2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        0,\n        2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[0,{}]",
+      "indent": "8",
+      "actual": {
+        "value": "[0, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[0, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n0,\n{}\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        0,\n        {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        0,\n        {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[0,[3]]",
+      "indent": "8",
+      "actual": {
+        "value": "[0, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[0, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n0,\n[3]\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        0,\n        [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        0,\n        [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[-0,2]",
+      "indent": "8",
+      "actual": {
+        "value": "[-0, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[-0, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n-0,\n2\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        -0,\n        2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        -0,\n        2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[-0,{}]",
+      "indent": "8",
+      "actual": {
+        "value": "[-0, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[-0, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n-0,\n{}\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        -0,\n        {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        -0,\n        {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[-0,[3]]",
+      "indent": "8",
+      "actual": {
+        "value": "[-0, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[-0, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n-0,\n[3]\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        -0,\n        [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        -0,\n        [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1.2300,2]",
+      "indent": "8",
+      "actual": {
+        "value": "[1.2300, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1.2300, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1.2300,\n2\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        1.2300,\n        2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        1.2300,\n        2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1.2300,{}]",
+      "indent": "8",
+      "actual": {
+        "value": "[1.2300, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1.2300, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1.2300,\n{}\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        1.2300,\n        {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        1.2300,\n        {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1.2300,[3]]",
+      "indent": "8",
+      "actual": {
+        "value": "[1.2300, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1.2300, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1.2300,\n[3]\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        1.2300,\n        [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        1.2300,\n        [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e-7,2]",
+      "indent": "8",
+      "actual": {
+        "value": "[1e-7, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e-7, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e-7,\n2\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        1e-7,\n        2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        1e-7,\n        2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e-7,{}]",
+      "indent": "8",
+      "actual": {
+        "value": "[1e-7, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e-7, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e-7,\n{}\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        1e-7,\n        {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        1e-7,\n        {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e-7,[3]]",
+      "indent": "8",
+      "actual": {
+        "value": "[1e-7, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e-7, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e-7,\n[3]\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        1e-7,\n        [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        1e-7,\n        [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e21,2]",
+      "indent": "8",
+      "actual": {
+        "value": "[1e21, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e21, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e21,\n2\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        1e21,\n        2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        1e21,\n        2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e21,{}]",
+      "indent": "8",
+      "actual": {
+        "value": "[1e21, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e21, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e21,\n{}\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        1e21,\n        {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        1e21,\n        {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1e21,[3]]",
+      "indent": "8",
+      "actual": {
+        "value": "[1e21, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1e21, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n1e21,\n[3]\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        1e21,\n        [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        1e21,\n        [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[9007199254740993,2]",
+      "indent": "8",
+      "actual": {
+        "value": "[9007199254740993, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[9007199254740993, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n9007199254740993,\n2\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        9007199254740993,\n        2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        9007199254740993,\n        2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[9007199254740993,{}]",
+      "indent": "8",
+      "actual": {
+        "value": "[9007199254740993, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[9007199254740993, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n9007199254740993,\n{}\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        9007199254740993,\n        {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        9007199254740993,\n        {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[9007199254740993,[3]]",
+      "indent": "8",
+      "actual": {
+        "value": "[9007199254740993, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[9007199254740993, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n9007199254740993,\n[3]\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        9007199254740993,\n        [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        9007199254740993,\n        [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[true,2]",
+      "indent": "8",
+      "actual": {
+        "value": "[true, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[true, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\ntrue,\n2\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        true,\n        2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        true,\n        2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[true,{}]",
+      "indent": "8",
+      "actual": {
+        "value": "[true, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[true, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\ntrue,\n{}\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        true,\n        {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        true,\n        {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[true,[3]]",
+      "indent": "8",
+      "actual": {
+        "value": "[true, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[true, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\ntrue,\n[3]\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        true,\n        [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        true,\n        [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[null,2]",
+      "indent": "8",
+      "actual": {
+        "value": "[null, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\nnull,\n2\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        null,\n        2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        null,\n        2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[null,{}]",
+      "indent": "8",
+      "actual": {
+        "value": "[null, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\nnull,\n{}\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        null,\n        {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        null,\n        {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[null,[3]]",
+      "indent": "8",
+      "actual": {
+        "value": "[null, [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null, [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\nnull,\n[3]\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        null,\n        [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        null,\n        [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\"x\",2]",
+      "indent": "8",
+      "actual": {
+        "value": "[\"x\", 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\"x\", 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n\"x\",\n2\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        \"x\",\n        2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        \"x\",\n        2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\"x\",{}]",
+      "indent": "8",
+      "actual": {
+        "value": "[\"x\", {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\"x\", {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n\"x\",\n{}\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        \"x\",\n        {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        \"x\",\n        {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\"x\",[3]]",
+      "indent": "8",
+      "actual": {
+        "value": "[\"x\", [3]]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\"x\", [3]]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n\"x\",\n[3]\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        \"x\",\n        [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        \"x\",\n        [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},2]",
+      "indent": "8",
+      "actual": {
+        "value": "[{}, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{}, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{},\n2\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[{},\n        2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{},\n        2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},{}]",
+      "indent": "8",
+      "actual": {
+        "value": "[{}, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{}, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{},\n{}\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[{},\n        {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{},\n        {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},[3]]",
+      "indent": "8",
+      "actual": {
+        "value": "[{},\n        [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{},\n        [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{},\n[3]\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[{},\n        [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{},\n        [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[],2]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        [], 2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        [], 2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[],\n2\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        [],\n        2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        [],\n        2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[],{}]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        [], {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        [], {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[],\n{}\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        [],\n        {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        [],\n        {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[],[3]]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        [],\n        [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        [],\n        [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[],\n[3]\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        [],\n        [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        [],\n        [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{\"a\":1},2]",
+      "indent": "8",
+      "actual": {
+        "value": "[{\n        \"a\": 1\n}, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n        \"a\": 1\n}, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{\"a\":1},\n2\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[{\n                \"a\": 1\n        },\n        2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n                \"a\": 1\n        },\n        2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{\"a\":1},{}]",
+      "indent": "8",
+      "actual": {
+        "value": "[{\n        \"a\": 1\n}, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n        \"a\": 1\n}, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{\"a\":1},\n{}\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[{\n                \"a\": 1\n        },\n        {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n                \"a\": 1\n        },\n        {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{\"a\":1},[3]]",
+      "indent": "8",
+      "actual": {
+        "value": "[{\n                \"a\": 1\n        },\n        [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n                \"a\": 1\n        },\n        [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n{\"a\":1},\n[3]\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[{\n                \"a\": 1\n        },\n        [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{\n                \"a\": 1\n        },\n        [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[1,2],2]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        [1, 2], 2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        [1, 2], 2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[1,2],\n2\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        [1, 2],\n        2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        [1, 2],\n        2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[1,2],{}]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        [1, 2], {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        [1, 2], {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[1,2],\n{}\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        [1, 2],\n        {}\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        [1, 2],\n        {}\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[[1,2],[3]]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        [1, 2],\n        [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        [1, 2],\n        [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[\n[1,2],\n[3]\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[\n        [1, 2],\n        [3]\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[\n        [1, 2],\n        [3]\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,2\n]",
+      "indent": "8",
+      "actual": {
+        "value": "[1, 2]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, 2]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},{}]",
+      "indent": "8",
+      "actual": {
+        "value": "[{}, {}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{}, {}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[{},{\"a\":1}]",
+      "indent": "8",
+      "actual": {
+        "value": "[{}, {\n        \"a\": 1\n}]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[{}, {\n        \"a\": 1\n}]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,{\"a\":2},3]",
+      "indent": "8",
+      "actual": {
+        "value": "[1, {\n        \"a\": 2\n}, 3]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, {\n        \"a\": 2\n}, 3]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":\n1}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":\n{\"b\":2}}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"a\": {\n                \"b\": 2\n        }\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"a\": {\n                \"b\": 2\n        }\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":[[1],[2]]}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"a\": [\n                [1],\n                [2]\n        ]\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"a\": [\n                [1],\n                [2]\n        ]\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":[{\"b\":2},{\"c\":3}]}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"a\": [{\n                \"b\": 2\n        }, {\n                \"c\": 3\n        }]\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"a\": [{\n                \"b\": 2\n        }, {\n                \"c\": 3\n        }]\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,\n\n2]",
+      "indent": "8",
+      "actual": {
+        "value": "[1,\n\n        2\n]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1,\n\n        2\n]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[,]",
+      "indent": "8",
+      "actual": {
+        "value": "[null]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[,,]",
+      "indent": "8",
+      "actual": {
+        "value": "[null, null]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[null, null]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "[1,,]",
+      "indent": "8",
+      "actual": {
+        "value": "[1, null]",
+        "effects": []
+      },
+      "helper": {
+        "value": "[1, null]",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"a\":1,}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{__proto__:null,x:1}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"x\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"x\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{__proto__:1,x:2}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"x\": 2\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"x\": 2\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{['a']:1}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"a\": 1\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"a\": 1\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:1,__proto__:{},__proto__:null}",
+      "indent": "8",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please copy a valid JSON/JS Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1_000",
+      "indent": "8",
+      "actual": {
+        "value": "1000",
+        "effects": []
+      },
+      "helper": {
+        "value": "1000",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "1e-324",
+      "indent": "8",
+      "actual": {
+        "value": "1e-324",
+        "effects": []
+      },
+      "helper": {
+        "value": "1e-324",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "5e-324",
+      "indent": "8",
+      "actual": {
+        "value": "5e-324",
+        "effects": []
+      },
+      "helper": {
+        "value": "5e-324",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "-1e400",
+      "indent": "8",
+      "actual": {
+        "value": "-1e400",
+        "effects": []
+      },
+      "helper": {
+        "value": "-1e400",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{\"s\":\"\\u2028\\u2029\"}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"s\": \"\\u2028\\u2029\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"s\": \"\\u2028\\u2029\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "{a:\"\\x41\",b:\"\\u{1f600}\"}",
+      "indent": "8",
+      "actual": {
+        "value": "{\n        \"a\": \"A\",\n        \"b\": \"😀\"\n}",
+        "effects": []
+      },
+      "helper": {
+        "value": "{\n        \"a\": \"A\",\n        \"b\": \"😀\"\n}",
+        "effects": []
+      }
+    },
+    {
+      "kind": "format",
+      "input": "`hi`",
+      "indent": "8",
+      "actual": {
+        "value": "\"hi\"",
+        "effects": []
+      },
+      "helper": {
+        "value": "\"hi\"",
+        "effects": []
+      }
+    },
+    {
+      "kind": "lines",
+      "input": "[]",
+      "actual": {
+        "value": [],
+        "effects": []
+      },
+      "helper": {
+        "value": [],
+        "effects": []
+      }
+    },
+    {
+      "kind": "lines",
+      "input": "[1,{\"a\":2},\"hi\"]",
+      "actual": {
+        "value": [
+          "1",
+          "{\"a\":2}",
+          "\"hi\""
+        ],
+        "effects": []
+      },
+      "helper": {
+        "value": [
+          "1",
+          "{\"a\":2}",
+          "\"hi\""
+        ],
+        "effects": []
+      }
+    },
+    {
+      "kind": "lines",
+      "input": "[{\"a\":1},{\"b\":2}]",
+      "actual": {
+        "value": [
+          "{\"a\":1}",
+          "{\"b\":2}"
+        ],
+        "effects": []
+      },
+      "helper": {
+        "value": [
+          "{\"a\":1}",
+          "{\"b\":2}"
+        ],
+        "effects": []
+      }
+    },
+    {
+      "kind": "lines",
+      "input": "[{\"a\":1},{\"b\":2},1,\"a\",true,null]",
+      "actual": {
+        "value": [
+          "{\"a\":1}",
+          "{\"b\":2}",
+          "1",
+          "\"a\"",
+          "true",
+          "null"
+        ],
+        "effects": []
+      },
+      "helper": {
+        "value": [
+          "{\"a\":1}",
+          "{\"b\":2}",
+          "1",
+          "\"a\"",
+          "true",
+          "null"
+        ],
+        "effects": []
+      }
+    },
+    {
+      "kind": "lines",
+      "input": "[\"a\",\"b\",{\"a\":1,\"b\":2},[1,2]]",
+      "actual": {
+        "value": [
+          "\"a\"",
+          "\"b\"",
+          "{\"a\":1,\"b\":2}",
+          "[1,2]"
+        ],
+        "effects": []
+      },
+      "helper": {
+        "value": [
+          "\"a\"",
+          "\"b\"",
+          "{\"a\":1,\"b\":2}",
+          "[1,2]"
+        ],
+        "effects": []
+      }
+    },
+    {
+      "kind": "lines",
+      "input": "[{\"z\":1,\"2\":2,\"1\":1,\"z\":3},-0,1e400,9007199254740993]",
+      "actual": {
+        "value": [
+          "{\"1\":1,\"2\":2,\"z\":3}",
+          "0",
+          "null",
+          "9007199254740992"
+        ],
+        "effects": []
+      },
+      "helper": {
+        "value": [
+          "{\"1\":1,\"2\":2,\"z\":3}",
+          "0",
+          "null",
+          "9007199254740992"
+        ],
+        "effects": []
+      }
+    },
+    {
+      "kind": "lines",
+      "input": "[\"\\ud800\",\"\\ud83d\\ude00\"]",
+      "actual": {
+        "value": [
+          "\"\\ud800\"",
+          "\"😀\""
+        ],
+        "effects": []
+      },
+      "helper": {
+        "value": [
+          "\"\\ud800\"",
+          "\"😀\""
+        ],
+        "effects": []
+      }
+    },
+    {
+      "kind": "lines",
+      "input": " [1,2] ",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please enter a valid JSON/JS Array Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "lines",
+      "input": "[1,2];",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please enter a valid JSON/JS Array Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "lines",
+      "input": "[1,]",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please enter a valid JSON/JS Array Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "lines",
+      "input": "null",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please enter a valid JSON/JS Array Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "lines",
+      "input": "{}",
+      "actual": {
+        "value": null,
+        "effects": [
+          [
+            "toast",
+            {
+              "style": "failure",
+              "title": "Please enter a valid JSON/JS Array Object"
+            }
+          ]
+        ]
+      },
+      "helper": {
+        "value": null,
+        "effects": []
+      }
+    },
+    {
+      "kind": "value",
+      "input": "",
+      "actual": {
+        "value": "\"\""
+      }
+    },
+    {
+      "kind": "value",
+      "input": "hello",
+      "actual": {
+        "value": "\"hello\""
+      }
+    },
+    {
+      "kind": "value",
+      "input": "a \"quote\"",
+      "actual": {
+        "value": "\"a \\\"quote\\\"\""
+      }
+    },
+    {
+      "kind": "value",
+      "input": "a\nb\r\t\u0000",
+      "actual": {
+        "value": "\"a\\nb\\r\\t\\u0000\""
+      }
+    },
+    {
+      "kind": "value",
+      "input": "😀",
+      "actual": {
+        "value": "\"😀\""
+      }
+    },
+    {
+      "kind": "value",
+      "actual": {
+        "value": "\"\\ud800\""
+      },
+      "inputUtf16": [
+        55296
+      ]
+    },
+    {
+      "kind": "value",
+      "input": "```\n![x](https://x)\n```",
+      "actual": {
+        "value": "\"```\\n![x](https://x)\\n```\""
+      }
+    }
+  ]
+}

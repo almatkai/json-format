@@ -2,6 +2,8 @@
 
 Format JSON/JS Objects in Tezbar on Windows or macOS with selectable indentation.
 
+Standalone Rust process implementation (schema 3): [v2/README.md](v2/README.md).
+
 ## Commands
 
 - **Format Clipboard JSON** — formats JSON/JS object from clipboard and copies/pastes back.

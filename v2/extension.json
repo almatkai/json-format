@@ -1,0 +1,173 @@
+{
+  "description": "Formats a JSON file with a selected indentation. If the JSON is stringified, it will be parsed before formatting.",
+  "preferences": [
+    {
+      "default": false,
+      "description": "Paste the formatted JSON to an active app",
+      "label": "Automatically paste the formatted JSON",
+      "name": "autopaste",
+      "required": false,
+      "title": "Auto Paste",
+      "type": "checkbox"
+    },
+    {
+      "data": [
+        {
+          "title": "Tab",
+          "value": "tab"
+        },
+        {
+          "title": "Spaces: 2",
+          "value": "2"
+        },
+        {
+          "title": "Spaces: 4",
+          "value": "4"
+        },
+        {
+          "title": "Spaces: 8",
+          "value": "8"
+        }
+      ],
+      "description": "Output file indentation",
+      "default": "tab",
+      "name": "indent",
+      "required": false,
+      "title": "Indentation",
+      "type": "dropdown"
+    },
+    {
+      "default": "10000",
+      "description": "Maximum number of lines to display initially (for large JSON files)",
+      "name": "maxInitialLines",
+      "required": false,
+      "title": "Max Initial Lines",
+      "type": "textfield"
+    }
+  ],
+  "schemaVersion": 3,
+  "id": "com.tezbar.native.json-format",
+  "slug": "json-format",
+  "name": "Format JSON",
+  "version": "0.2.0",
+  "runtime": "rust",
+  "execution": "process",
+  "protocolVersion": 1,
+  "repository": "https://github.com/almatkai/json-format",
+  "author": "almatkai",
+  "icon": "resources/command-icon.png",
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "replaces": [
+    "com.tezbar.json-format",
+    "raycast.json-format"
+  ],
+  "capabilities": [
+    "clipboard.read",
+    "clipboard.write",
+    "clipboard.pasteText",
+    "selection.read",
+    "window.visibility"
+  ],
+  "artifacts": {},
+  "commands": [
+    {
+      "name": "formatClipboard",
+      "title": "Format Clipboard JSON",
+      "description": "Formats a JSON/JS Object string stored in clipboard and copies/pastes it back",
+      "mode": "no-view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "refreshMs": null,
+      "concurrency": "serialize",
+      "icon": "resources/command-icon.png"
+    },
+    {
+      "name": "formatSelection",
+      "title": "Format Selected JSON",
+      "description": "Formats a JSON/JS Object string selected in the foremost editor and copies/pastes it back",
+      "mode": "no-view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "refreshMs": null,
+      "concurrency": "serialize",
+      "icon": "resources/command-icon.png"
+    },
+    {
+      "name": "formatSelectionAndShow",
+      "title": "Format Selected JSON and Show",
+      "description": "Formats a JSON/JS Object string selected in the foremost editor and shows it in the viewer",
+      "mode": "view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "refreshMs": null,
+      "concurrency": "serialize",
+      "icon": "resources/command-icon.png"
+    },
+    {
+      "name": "index",
+      "title": "Format JSON",
+      "description": "Formats a JSON/JS Object",
+      "mode": "view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "refreshMs": null,
+      "concurrency": "serialize",
+      "icon": "resources/command-icon.png"
+    },
+    {
+      "name": "formatJsonLines",
+      "title": "Format Array of JSON to JSONLines",
+      "description": "Formats an array of JSON/JS Object to JSONLines",
+      "mode": "view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "refreshMs": null,
+      "concurrency": "serialize",
+      "icon": "resources/command-icon.png"
+    },
+    {
+      "name": "formatToJsonValue",
+      "title": "Format Text into Valid JSON Value",
+      "description": "Formats text into a valid JSON value with double quotes and escapes",
+      "mode": "view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "refreshMs": null,
+      "concurrency": "serialize",
+      "icon": "resources/command-icon.png"
+    }
+  ],
+  "verification": [
+    {
+      "platform": "macOS",
+      "state": "not-run",
+      "note": "Real desktop OS clipboard/selection/paste acceptance has not been run."
+    },
+    {
+      "platform": "Windows",
+      "state": "not-run",
+      "note": "Real desktop OS clipboard/selection/paste acceptance has not been run."
+    }
+  ]
+}
